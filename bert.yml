@@ -15,7 +15,6 @@ pipeline:
   - name: LanguageModelFeaturizer
     model_name: "bert"
     model_weights: "rasa/LaBSE"
-  cache_dir: cache_dir
   - name: DIETClassifier
     epochs: 100
     constrain_similarities: true
