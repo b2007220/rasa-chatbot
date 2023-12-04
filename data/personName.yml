@@ -1,0 +1,27 @@
+version: "3.1"
+nlu:
+  - lookup: person_name
+    examples: |
+      - An Phước Trần
+      - Trần Phước An
+      - Lê Gia Khôi
+      - Nguyễn Phúc Vĩnh An
+      - Trần Việt Quang
+      - Trần Quang Vinh
+      - Lê Gia Luật
+      - Trần Minh Khôi
+      - Nguyễn Thị Mỹ Xuân
+      - Nguyễn Uyên My
+      - Lê Minh Thư
+      - Lê Thị Mỹ Thịnh
+      - Võ Ngọc Trân 
+      - Lê Mỹ Duyên
+      - Nguyễn Thị Tú Trinh
+      - Ngô Mỹ Hân
+      - Trần Thị Kim Đồng
+      - Lê Nhật Linh
+      - Nguyễn Huỳnh Như
+      - Nguyễn Hồng Thắm
+      - Lưu Tiến Đạo
+      - Phước An Trần
+      - Nguyễn Thị Thanh Thảo

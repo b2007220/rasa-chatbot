@@ -1,0 +1,153 @@
+version: "3.1"
+
+stories:
+  - story: greet
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: goodbye
+    - action: utter_goodbye
+
+  - story: ask user infor
+    steps:
+      - intent: ask_user_infor
+      - action: action_user_infor
+
+  - story: ask enroll infor
+    steps:
+      - intent: ask_enroll_infor
+      - action: action_enroll_infor
+
+  - story: show lastest report
+    steps:
+      - intent: ask_lastest_report
+      - action: action_show_lastest_report
+
+  - story: ask for random use
+    steps:
+      - intent: ask_random_topic
+      - action: action_ask_random_topic
+
+  - story: ask lastest report from student
+    steps:
+      - intent: ask_lastest_report_from_student
+      - action: action_show_lastest_report_from_student
+
+  - story: ask enroll from student
+    steps:
+      - intent: ask_enroll_from_student
+      - action: action_show_enroll_from_student
+
+  - story: interactive_story_1
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_lastest_report_from_student
+      entities:
+      - person_name: Lê Mỹ Duyên
+    - slot_was_set:
+      - person_name: Lê Mỹ Duyên
+    - action: action_show_lastest_report_from_student
+    - intent: ask_enroll_from_student
+      entities:
+      - person_name: Nguyễn Phúc Vĩnh An
+    - slot_was_set:
+      - person_name: Nguyễn Phúc Vĩnh An
+    - action: action_show_enroll_from_student
+
+  - story: interactive_story_2
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_user_infor
+    - action: action_user_infor
+    - intent: ask_random_topic
+      entities:
+      - topic_type: niên luận cơ sở
+      - person_name: Lưu Tiến Đạo
+    - slot_was_set:
+      - person_name: Lưu Tiến Đạo
+    - slot_was_set:
+      - topic_type: niên luận cơ sở
+    - action: action_ask_random_topic
+    - intent: ask_lastest_report
+    - action: action_show_lastest_report
+    - intent: ask_enroll_infor
+    - action: action_enroll_infor
+
+  - story: interactive_story_3
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_lastest_report_from_student
+      entities:
+      - person_name: Trần Phước An
+    - slot_was_set:
+      - person_name: Trần Phước An
+    - action: action_show_lastest_report_from_student
+    - intent: ask_lastest_report_from_student
+      entities:
+      - person_name: Phước An Trần
+    - slot_was_set:
+      - person_name: Phước An Trần
+    - action: action_show_lastest_report_from_student
+    - intent: ask_random_topic
+      entities:
+      - topic_type: niên luận ngành
+      - person_name: Lưu Tiến Đạo
+    - slot_was_set:
+      - person_name: Lưu Tiến Đạo
+    - slot_was_set:
+      - topic_type: niên luận ngành
+    - action: action_ask_random_topic
+
+  - story: interactive_story_4
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: create_new_report
+      - action: report_form
+      - active_loop: report_form
+      - slot_was_set:
+        - requested_slot: done_job
+      - slot_was_set:
+        - done_job: Tạo ra giao diện chatbot
+      - slot_was_set:
+        - requested_slot: next_job
+      - slot_was_set:
+        - next_job: tích hợp chatbot
+      - slot_was_set:
+        - requested_slot: promise_day
+      - slot_was_set:
+        - promise_day: 13/02/2024
+      - slot_was_set:
+        - requested_slot: null
+      - active_loop: null
+      - action: action_create_report
+
+
+  - story: interactive_story_5
+    steps:
+    - intent: create_new_report
+    - action: report_form
+    - active_loop: report_form
+    - slot_was_set:
+      - requested_slot: done_job
+    - slot_was_set:
+      - done_job: phát triển website
+    - slot_was_set:
+      - requested_slot: next_job
+    - intent: provide_next_job
+    - slot_was_set:
+      - next_job: cải thiện quá trình học tập
+    - slot_was_set:
+      - requested_slot: promise_day
+    - slot_was_set:
+      - promise_day: 13/02/2024
+    - action: action_deactivate_loop
+    - slot_was_set:
+      - requested_slot: null
+    - active_loop: null
+    - action: action_create_report
+
+

@@ -1,0 +1,76 @@
+version: "3.1"
+nlu:
+- intent: ask_enroll_from_student
+  examples: |
+    - Cung cấp cho tôi đề tài mà [Trần Phước An](person_name) đã đăng kí
+    - Đề tài mà [Nguyễn Phúc Vĩnh An](person_name) làm là gì
+- intent: provide_promise_day
+  examples: |
+    - Công việc sẽ hoàn tất trước ngày [20/11/2023](promise_day)
+    - [20/11/2023](promise_day) là hạn chót của công việc
+- intent: ask_lastest_report_from_student
+  examples: |
+    - Báo cáo mới nhất của [Trần Phước An](person_name)
+    - báo cáo tiến độ lần cuối của [Lê Mỹ Duyên](person_name)
+- intent: thank
+  examples: |
+    - Cảm ơn sự hỗ trợ của bạn
+    - Cảm ơn
+- intent: create_new_report
+  examples: |
+    - Tạo báo cáo mới
+    - Tạo báo cáo
+- intent: ask_lastest_report
+  examples: |
+    - Báo cáo gần đây nhất của tôi là khi nào?
+    - Cho tôi biết ngày lần cuối tôi báo cáo tiến độ là khi nào?
+- intent: goodbye
+  examples: |
+    - chúc bạn một ngày tốt lành
+    - nếu còn gì thêm, tôi sẽ quay lại
+    - hẹn sớm gặp lại
+- intent: ask_user_infor
+  examples: |
+    - tôi tên là gì
+    - tôi cần biết về tài khoản của mình
+- intent: greet
+  examples: |
+    - tôi đang ở đây
+    - xin chào
+    - tôi muốn kết nối
+- intent: ask_random_topic
+  examples: |
+    - Chọn một đề tài [niên luận ngành] từ cô [Nguyễn Uyên My](person_name) cho tôi được không
+    - Gợi ý một đề tài [niên luận ngành](topic_type) từ thầy [Lưu Tiến Đạo](person_name) cho tôi được không?
+    - Cho tôi một đề tài [niên luận cơ sở](topic_type) ngẫu nhiên từ thầy [Lưu Tiến Đạo](person_name)
+- intent: ask_enroll_infor
+  examples: |
+    - tôi muốn kiểm tra trạng thái của đề tài
+    - tôi muốn biết trạng thái của đề tài tôi đăng kí
+    - trạng thái của đề tài tôi đăng kí sao rồi
+    - đề tài của tôi như thế nào rồi
+- lookup: person_name
+  examples: |
+    - An Phước Trần
+    - Trần Phước An
+    - Lê Gia Khôi
+    - Nguyễn Phúc Vĩnh An
+    - Trần Việt Quang
+    - Trần Quang Vinh
+    - Lê Gia Luật
+    - Trần Minh Khôi
+    - Nguyễn Thị Mỹ Xuân
+    - Nguyễn Uyên My
+    - Lê Minh Thư
+    - Lê Thị Mỹ Thịnh
+    - Võ Ngọc Trân
+    - Lê Mỹ Duyên
+    - Nguyễn Thị Tú Trinh
+    - Ngô Mỹ Hân
+    - Trần Thị Kim Đồng
+    - Lê Nhật Linh
+    - Nguyễn Huỳnh Như
+    - Nguyễn Hồng Thắm
+    - Lưu Tiến Đạo
+    - Phước An Trần
+    - Nguyễn Thị Thanh Thảo

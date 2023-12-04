@@ -1,0 +1,16 @@
+version: "3.1"
+nlu:
+  - lookup: topic_type
+    examples: |
+      - niên luận cơ sở
+      - niên luận chuyên ngành
+      - nl cơ sở
+      - nl chuyên ngành
+      - NLCS
+      - nlcs
+      - NL chuyên ngành
+      - nl chuyên ngành
+      - NLN
+      - nln
+      - NLCN
+      - nlcn

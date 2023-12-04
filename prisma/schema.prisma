@@ -1,0 +1,127 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider  = "prisma-client-py"
+  interface = "asyncio"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+enum Gender {
+  MALE
+  FEMALE
+  HIDDEN
+}
+
+enum Role {
+  STUDENT
+  TEACHER
+  ADMIN
+}
+
+model User {
+  id            Int      @id @default(autoincrement())
+  fullName      String?
+  email         String   @unique
+  password      String?
+  gender        Gender   @default(HIDDEN)
+  active        Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @default(now()) @updatedAt
+  role          Role     @default(STUDENT)
+  course        Int?
+  schoolId      String?  @unique
+  major         Major?   @relation(fields: [majorId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  majorId       Int?
+  enrolls       Enroll[]
+  uses          Use[]
+  uid           String   @unique
+  isSetPassword Boolean  @default(false)
+}
+
+model Major {
+  id        Int    @id @default(autoincrement())
+  code      String @unique
+  majorName String
+  users     User[]
+}
+
+enum State {
+  WAIT
+  IN_PROCESS
+  DONE
+  PROPOSE
+}
+
+enum Type {
+  BASIS
+  MASTER
+}
+
+model Topic {
+  id        Int     @id @default(autoincrement())
+  name      String
+  describe  String
+  link      String?
+  type      Type
+  uses      Use[]
+  isChecked Boolean @default(true)
+}
+
+model Use {
+  id           Int       @id @default(autoincrement())
+  topic        Topic?    @relation(fields: [topicId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  topicId      Int
+  enrolls      Enroll[]
+  userIncharge User?     @relation(fields: [userId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  userId       Int
+  semester     Semester? @relation(fields: [semesterId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  semesterId   Int
+}
+
+model Enroll {
+  id      Int      @id @default(autoincrement())
+  user    User?    @relation(fields: [userId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  userId  Int
+  use     Use?     @relation(fields: [useId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  useId   Int
+  reports Report[]
+  state   State    @default(WAIT)
+}
+
+model Report {
+  id        Int      @id @default(autoincrement())
+  doneJob   String
+  nextJob   String
+  createdAt DateTime @default(now())
+  promiseAt DateTime
+  enroll    Enroll   @relation(fields: [enrollId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  enrollId  Int
+}
+
+model Year {
+  id        Int        @id @default(autoincrement())
+  name      String
+  semesters Semester[]
+}
+
+enum SemesterName {
+  FIRST
+  SECOND
+  SUMMER
+}
+
+model Semester {
+  id        Int          @id @default(autoincrement())
+  name      SemesterName
+  startAt   DateTime
+  endAt     DateTime
+  year      Year?        @relation(fields: [yearId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  yearId    Int?
+  uses      Use[]
+  isCurrent Boolean      @default(false)
+}

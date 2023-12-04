@@ -1,0 +1,18 @@
+I)installing rasa
+>conda deactivate
+>conda create -n rasaenv
+>conda activate rasaenv
+>pip install rasa
+>rasa init
+(install in current directory)
+
+
+II)to communicate with rasa in cmd
+>rasa shell
+
+II)running rasa end points:
+rasa run --cors "*" --enable-api
+
+rasa run actions --action actions --debug
+
+rasa test nlu --config  phoBert.yml bert.yml config.yml roberta.yml --nlu data/nlu.yml --runs 4 --percentages 25 50 70 95 

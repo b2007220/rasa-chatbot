@@ -1,0 +1,96 @@
+version: '3.1'
+intents:
+  - ask_enroll_from_student
+  - ask_enroll_infor
+  - ask_lastest_report
+  - ask_lastest_report_from_student
+  - ask_random_topic
+  - ask_user_infor
+  - create_new_report
+  - goodbye
+  - greet
+  - provide_done_job
+  - provide_next_job
+  - provide_promise_day
+  - thank
+entities:
+  - job:
+      role:
+      - done_job
+      - next_job
+  - person_name
+  - topic_type
+forms:
+  report_form:
+    required_slots:
+    - done_job
+    - next_job
+    - promise_day
+slots:
+  person_name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: person_name
+  done_job:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: job
+      role: done_job
+      conditions:
+      - active_loop: report_form
+        requested_slot: done_job
+  next_job:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: job
+      role: next_job
+      conditions:
+      - active_loop: report_form
+        requested_slot: next_job
+  promise_day:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: promise_day
+      conditions:
+      - active_loop: report_form
+        requested_slot: promise_day
+  topic_type:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: topic_type
+responses:
+  utter_greet:
+  - text: Xin chào! Mình là chatbot hỗ trợ website quản lý niên luận
+  - text: Xin chào! Mình là chatbot hỗ trợ website quản lý niên luận. Bạn cần mình giúp gì?
+  - text: Xin chào! Mình là chatbot hỗ trợ website quản lý niên luận. Bạn cần mình hỗ trợ gì?
+  utter_goodbye:
+  - text: Rất vui vì đã được hỗ trợ cho bạn
+  - text: Hẹn gặp lại bạn sau nhé
+  utter_ask_promise_day:
+  - text: Bạn có thể cung cấp cho mình thời hạn hoàn thành công việc này là ngày nào không?
+  utter_ask_done_job:
+  - text: Bạn có thể cho mình biết công việc bạn đã làm được không?
+  utter_ask_next_job:
+  - text: Bạn có thể cho mình biết công việc tiếp theo bạn sẽ làm là gì không?
+  utter_appreciate:
+  - text: Hỗ trợ cho bạn là niềm vui của mình
+  utter_please_rephrase:
+  - text: Mình không hiểu ý bạn lắm. Bạn có thể nói lại được không?
+actions:
+- action_create_report
+- action_ask_random_topic
+- action_show_lastest_report_from_student
+- action_user_infor
+- action_enroll_infor
+- action_show_lastest_report
+- action_show_enroll_from_student
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

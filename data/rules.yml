@@ -1,0 +1,28 @@
+version: '3.1'
+
+rules:
+    - rule: Say goodbye anytime the user says goodbye
+      steps:
+          - intent: goodbye
+          - action: utter_goodbye
+
+    - rule: create new report
+      steps:
+          - intent: create_new_report
+          - action: report_form
+          - active_loop: report_form
+
+    - rule: submit report form
+      condition:
+          - active_loop: report_form
+      steps:
+          - action: report_form
+          - active_loop: null
+          - slot_was_set:
+                - requested_slot: null
+          - action: action_create_report
+
+    - rule: Ask the user to rephrase in case of low NLU confidence
+      steps:
+          - intent: nlu_fallback
+          - action: utter_please_rephrase

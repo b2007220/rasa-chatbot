@@ -1,0 +1,155 @@
+version: "3.1"
+nlu:
+- intent: ask_enroll_from_student
+  examples: |
+    - Tôi muốn xem đề tài của [Trần Phước An](person_name)
+    - Cho tôi xem đề tài của [Trần Phước An](person_name) đã đăng kí
+    - [Trần Phước An](person_name) đã đăng kí đề tài gì
+    - Cung cấp cho tôi thông tin đề tài mà [Trần Phước An](person_name) đã đăng kí
+    - [Trần Phước An](person_name) đã đăng kí đề tài ngành hay cơ sở
+- intent: provide_promise_day
+  examples: |
+    - [20/11/2023](promise_day)
+    - Công việc sẽ hoàn thành vào ngày [20/11/2023](promise_day)
+    - Dự kiến hoàn thành vào ngày [20/11/2023](promise_day)
+    - Tôi cam kết sẽ xong vào ngày [20/11/2023](promise_day)
+    - ngày [20/11/2023](promise_day)
+    - tôi sẽ hoàn thành công việc này vào ngày [20/11/2023](promise_day)
+    - Tôi dự định sẽ xong vào ngày [20/11/2023](promise_day)
+- intent: ask_lastest_report_from_student
+  examples: |
+    - [Trần Phước An](person_name) lần cuối báo cáo vào ngày nào
+    - Xem báo cáo mới nhất của [Trần Phước An](person_name)
+    - cho tôi xem báo cáo lần cuối của [Phước An Trần](person_name)
+    - Cung cấp cho tôi báo cáo mới nhất của [Trần Phước An](person_name) được không
+    - cho tôi xem báo cáo mới nhất của [Trần Phước An](person_name)
+    - Cho tôi xem báo cáo mới nhất của [Trần Phước An](person_name)
+    - Lần báo cáo gần nhất của [Trần Phước An](person_name) là ngày nào
+    - [Trần Phước An](person_name) đã báo cáo lần cuối vào ngày nào
+- intent: thank
+  examples: |
+    - Cảm ơn bạn
+    - Cảm ơn nhiều lắm
+    - Cảm ơn vì sự giúp đỡ của bạn
+    - Rất cảm ơn
+    - Rất động viên bởi sự giúp đỡ của bạn
+    - Xin cảm ơn
+    - Cảm ơn bạn đã giúp đỡ
+    - Cảm ơn rất nhiều
+- intent: create_new_report
+  examples: |
+    - Tạo báo cáo tiến độ
+    - Tạo một báo cáo mới
+    - Báo cáo mới là gì
+    - Tôi muốn tạo báo cáo mới
+    - Tôi muôn tạo báo cáo tiến độ
+    - Tạo một bản báo cáo
+    - Lập báo cáo mới
+    - Bắt đầu báo cáo mới
+    - Tạo một bản báo cáo tiến độ mới
+- intent: ask_lastest_report
+  examples: |
+    - Tôi muốn xem báo cáo tiến độ mới nhất của mình
+    - Cho tôi xem báo cáo tiến độ mới nhất của minh
+    - lần báo cáo gần nhất của tôi
+    - Bạn có thể cho tôi xem báo cáo mới nhất không?
+    - Tôi muốn xem báo cáo mới nhất của tôi
+    - Tôi có thể xem báo cáo tiến độ mới nhất của mình không?
+    - Cho tôi xem báo cáo mới nhất của tôi
+    - Báo cáo mới nhất của tôi
+    - Xem báo cáo mới nhất của tôi
+    - Lần báo cáo tiến độ của tôi gần nhất là ngày nào
+- intent: goodbye
+  examples: |
+    - tạm biệt
+    - chào tạm biệt
+    - bye
+    - hẹn gặp lại
+    - hẹn gặp bạn sau
+    - chúc bạn mọi điều tốt lành
+    - tạm biệt nhé
+    - hẹn gặp lại bạn sau
+    - chào nhé
+    - chúc bạn có một ngày tốt lành
+- intent: ask_user_infor
+  examples: |
+    - thông tin về tôi
+    - bạn có thể cho tôi biết thông tin của tôi không
+    - một số thông tin của tôi
+    - thông tin của tôi
+    - cho tôi biết thông tin của mình
+    - tôi muốn xem thông tin cá nhân của mình
+    - tôi là ai trong hệ thống
+    - tôi muốn biết một số chi tiết về tài khoản của tôi
+    - có thể cung cấp thông tin về tôi không
+    - tôi là ai vậy
+    - tôi muốn biết về tài khoản của mình
+- intent: greet
+  examples: |
+    - tôi muốn nói chuyện
+    - hãy chào
+    - chào bạn
+    - còn ai đây không
+    - tôi cần hỗ trợ
+    - hi
+    - hế nhô
+    - hello
+    - alo
+    - tôi cần tư vấn
+    - chào
+    - có ai ở đó không
+- intent: ask_random_topic
+  examples: |
+    - Chọn một đề tài [niên luận cơ sở] từ cô [Nguyễn Uyên My](person_name) cho tôi được không
+    - Đưa ra cho tôi một đề tài [niên luận ngành](topic_type) từ thầy [Lưu Tiến Đạo](person_name) được không?
+    - cho tôi một đề tài [niên](topic_type) luận [cơ sở](topic_type) của thầy [Lưu Tiến Đạo](person_name)
+    - Có thể cho tôi một đề tài [niên luận cơ sở](topic_type) ngẫu nhiên của thầy [Lưu Tiến Đạo](person_name) được không
+    - Bạn có thể gợi ý cho tôi một đề tài [niên luận ngành] từ thầy [Lưu Tiến Đạo](person_name) không?
+    - Bạn có thể gợi ý cho tôi một đề tài [niên luận cơ sở] từ cô [Nguyễn Uyên My](person_name) không?
+    - Tôi muốn tìm một đề tài [niên luận cơ sở](topic_type) ngẫu nhiên từ thầy [Lưu Tiến Đạo](person_name)
+    - Có thể cho tôi một đề tài [niên luận ngành](topic_type) ngẫu nhiên của thầy [Lưu Tiến Đạo](person_name) được không
+    - Gợi ý một đê tài [niên luận cơ sở](topic_type) từ thầy [Lưu Tiến Đạo](person_name) cho tôi được không?
+    - Đưa ra cho tôi một đề tài [niên luận cơ sở](topic_type) từ thầy [Lưu Tiến Đạo](person_name) được không?
+    - Cho tôi một đề tài [niên luận ngành](topic_type) ngẫu nhiên từ thầy [Lưu Tiến Đạo](person_name)
+    - Tôi muốn tìm một đề tài [niên luận ngành](topic_type) ngẫu nhiên từ thầy [Lưu Tiến Đạo](person_name)
+- intent: ask_enroll_infor
+  examples: |
+    - tên đề tài tôi đăng kí là gì
+    - tình hình của đề tài tôi thế nào
+    - tôi muốn biết về đề tài của mình
+    - đề tài tôi đã được chấp nhận chưa
+    - cho tôi biết đề tài tôi đã đăng kí
+    - có tin tức gì mới về đề tài không
+    - thông tin về đề tài của tôi
+    - tôi đang làm niên luận ngành hay cơ sở
+    - có thông tin mới về đề tài của tôi không
+    - tôi cần biết về đề tài mình đã đăng kí
+    - có cập nhật gì về đề tài của tôi không
+    - tôi muốn biết thông tin về đề tài của tôi
+    - tôi đang làm đề tài gì
+    - tôi đã đăng kí đề tài gì
+- lookup: person_name
+  examples: |
+    - An Phước Trần
+    - Trần Phước An
+    - Lê Gia Khôi
+    - Nguyễn Phúc Vĩnh An
+    - Trần Việt Quang
+    - Trần Quang Vinh
+    - Lê Gia Luật
+    - Trần Minh Khôi
+    - Nguyễn Thị Mỹ Xuân
+    - Nguyễn Uyên My
+    - Lê Minh Thư
+    - Lê Thị Mỹ Thịnh
+    - Võ Ngọc Trân
+    - Lê Mỹ Duyên
+    - Nguyễn Thị Tú Trinh
+    - Ngô Mỹ Hân
+    - Trần Thị Kim Đồng
+    - Lê Nhật Linh
+    - Nguyễn Huỳnh Như
+    - Nguyễn Hồng Thắm
+    - Lưu Tiến Đạo
+    - Phước An Trần
+    - Nguyễn Thị Thanh Thảo
