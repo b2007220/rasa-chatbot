@@ -128,26 +128,25 @@ stories:
 
   - story: interactive_story_5
     steps:
-    - intent: create_new_report
-    - action: report_form
-    - active_loop: report_form
-    - slot_was_set:
-      - requested_slot: done_job
-    - slot_was_set:
-      - done_job: phát triển website
-    - slot_was_set:
-      - requested_slot: next_job
-    - intent: provide_next_job
-    - slot_was_set:
-      - next_job: cải thiện quá trình học tập
-    - slot_was_set:
-      - requested_slot: promise_day
-    - slot_was_set:
-      - promise_day: 13/02/2024
-    - action: action_deactivate_loop
-    - slot_was_set:
-      - requested_slot: null
-    - active_loop: null
-    - action: action_create_report
+      - intent: create_new_report
+      - action: report_form
+      - active_loop: report_form
+      - slot_was_set:
+        - requested_slot: done_job
+      - slot_was_set:
+        - done_job: phát triển website
+      - slot_was_set:
+        - requested_slot: next_job
+      - intent: provide_next_job
+      - slot_was_set:
+        - next_job: cải thiện quá trình học tập
+      - slot_was_set:
+        - requested_slot: promise_day
+      - slot_was_set:
+        - promise_day: 13/02/2024
+      - slot_was_set:
+        - requested_slot: null
+      - active_loop: null
+      - action: action_create_report
 
 
