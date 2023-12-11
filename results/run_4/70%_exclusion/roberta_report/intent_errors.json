@@ -1,0 +1,50 @@
+[
+  {
+    "text": "chào tạm biệt",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.2769067585468292
+    }
+  },
+  {
+    "text": "tạm biệt nhé",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3689553439617157
+    }
+  },
+  {
+    "text": "tôi là ai trong hệ thống",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.644016683101654
+    }
+  },
+  {
+    "text": "tôi tên là gì",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.6500864028930664
+    }
+  },
+  {
+    "text": "xin chào",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.8345944285392761
+    }
+  },
+  {
+    "text": "đề tài tôi đã được chấp nhận chưa",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "provide_done_job",
+      "confidence": 0.33344751596450806
+    }
+  }
+]

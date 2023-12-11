@@ -1,0 +1,66 @@
+[
+  {
+    "text": "Cho tôi xem đề tài của Trần Phước An đã đăng kí",
+    "intent": "ask_enroll_from_student",
+    "intent_prediction": {
+      "name": "ask_lastest_report_from_student",
+      "confidence": 0.5461720824241638
+    }
+  },
+  {
+    "text": "Cung cấp cho tôi đề tài mà Trần Phước An đã đăng kí",
+    "intent": "ask_enroll_from_student",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.8110613226890564
+    }
+  },
+  {
+    "text": "Xem báo cáo mới nhất của tôi",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "ask_lastest_report_from_student",
+      "confidence": 0.8828228116035461
+    }
+  },
+  {
+    "text": "Cho tôi xem báo cáo mới nhất của tôi",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.41581782698631287
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.2588564157485962
+    }
+  },
+  {
+    "text": "tôi đang ở đây",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_lastest_report",
+      "confidence": 0.9348816275596619
+    }
+  },
+  {
+    "text": "đề tài tôi đã được chấp nhận chưa",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_random_topic",
+      "confidence": 0.5872241258621216
+    }
+  },
+  {
+    "text": "thông tin về đề tài của tôi",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.9283633828163147
+    }
+  }
+]

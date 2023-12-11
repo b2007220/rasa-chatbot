@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Cung cấp cho tôi đề tài mà Trần Phước An đã đăng kí",
+    "intent": "ask_enroll_from_student",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.3756476044654846
+    }
+  },
+  {
+    "text": "Xem báo cáo mới nhất của tôi",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.6064980626106262
+    }
+  },
+  {
+    "text": "Cho tôi xem báo cáo mới nhất của tôi",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.6059389710426331
+    }
+  },
+  {
+    "text": "lần báo cáo gần nhất của tôi",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.5792632102966309
+    }
+  },
+  {
+    "text": "chúc bạn mọi điều tốt lành",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.41330716013908386
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.49533194303512573
+    }
+  },
+  {
+    "text": "cho tôi biết thông tin của mình",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.4071981608867645
+    }
+  },
+  {
+    "text": "thông tin của tôi",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.8377901911735535
+    }
+  },
+  {
+    "text": "một số thông tin của tôi",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.5842303037643433
+    }
+  },
+  {
+    "text": "chào",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9927265644073486
+    }
+  }
+]

@@ -1,0 +1,221 @@
+[
+  {
+    "text": "báo cáo tiến độ lần cuối của Lê Mỹ Duyên",
+    "entities": [
+      {
+        "start": 29,
+        "end": 40,
+        "value": "Lê Mỹ Duyên",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person_name",
+        "start": 29,
+        "end": 31,
+        "confidence_entity": 0.3130139708518982,
+        "value": "Lê",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 35,
+        "end": 40,
+        "confidence_entity": 0.9676600098609924,
+        "value": "Duyên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Chọn một đề tài [niên luận ngành] từ cô Nguyễn Uyên My cho tôi được không",
+    "entities": [
+      {
+        "start": 40,
+        "end": 54,
+        "value": "Nguyễn Uyên My",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.9920927882194519,
+        "value": "ngành",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 40,
+        "end": 54,
+        "confidence_entity": 0.9959427714347839,
+        "value": "Nguyễn Uyên My",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Đưa ra cho tôi một đề tài niên luận cơ sở từ thầy Lưu Tiến Đạo được không?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 41,
+        "value": "niên luận cơ sở",
+        "entity": "topic_type"
+      },
+      {
+        "start": 50,
+        "end": 62,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 26,
+        "end": 35,
+        "confidence_entity": 0.9093512296676636,
+        "value": "niên luận",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "done_job",
+        "start": 39,
+        "end": 41,
+        "confidence_entity": 0.7569700479507446,
+        "value": "sở",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 50,
+        "end": 62,
+        "confidence_entity": 0.996429979801178,
+        "value": "Lưu Tiến Đạo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Có thể cho tôi một đề tài niên luận cơ sở ngẫu nhiên của thầy Lưu Tiến Đạo được không",
+    "entities": [
+      {
+        "start": 26,
+        "end": 41,
+        "value": "niên luận cơ sở",
+        "entity": "topic_type"
+      },
+      {
+        "start": 62,
+        "end": 74,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 26,
+        "end": 35,
+        "confidence_entity": 0.8983756899833679,
+        "value": "niên luận",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "done_job",
+        "start": 39,
+        "end": 41,
+        "confidence_entity": 0.9090021252632141,
+        "value": "sở",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic_type",
+        "start": 47,
+        "end": 52,
+        "confidence_entity": 0.5954362750053406,
+        "value": "nhiên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 62,
+        "end": 74,
+        "confidence_entity": 0.9939811825752258,
+        "value": "Lưu Tiến Đạo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tôi đang làm niên luận ngành hay cơ sở",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 18,
+        "end": 28,
+        "confidence_entity": 0.5180349349975586,
+        "value": "luận ngành",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tích hợp chatbot vào website của trường là công việc tôi định làm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 39,
+        "value": "tích hợp chatbot vào website của trường",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi đã xây dựng được thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu rồi",
+    "entities": [
+      {
+        "start": 21,
+        "end": 77,
+        "value": "thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu",
+        "entity": "done_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 7,
+        "end": 15,
+        "confidence_entity": 0.9993163347244263,
+        "value": "xây dựng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "done_job",
+        "start": 21,
+        "end": 77,
+        "confidence_entity": 0.9713664650917053,
+        "value": "thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

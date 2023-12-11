@@ -1,0 +1,138 @@
+[
+  {
+    "text": "Trần Phước An đã đăng kí đề tài ngành hay cơ sở",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "Trần Phước An",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person_name",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.9953022003173828,
+        "value": "Trần Phước An",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "topic_type",
+        "start": 32,
+        "end": 37,
+        "confidence_entity": 0.5336217880249023,
+        "value": "ngành",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi muốn tìm một đề tài niên luận cơ sở ngẫu nhiên từ thầy Lưu Tiến Đạo",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "value": "niên luận cơ sở",
+        "entity": "topic_type"
+      },
+      {
+        "start": 59,
+        "end": 71,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 24,
+        "end": 44,
+        "confidence_entity": 0.3701564371585846,
+        "value": "niên luận cơ sở ngẫu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic_type",
+        "start": 45,
+        "end": 50,
+        "confidence_entity": 0.6048553586006165,
+        "value": "nhiên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 59,
+        "end": 71,
+        "confidence_entity": 0.9945374131202698,
+        "value": "Lưu Tiến Đạo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tiếp theo tôi sẽ tích hợp chatbot",
+    "entities": [
+      {
+        "start": 17,
+        "end": 33,
+        "value": "tích hợp chatbot",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "next_job",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.8302674293518066,
+        "value": "tích",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "done_job",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.4573107361793518,
+        "value": "chatbot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi sẽ tích hợp chatbot",
+    "entities": [
+      {
+        "start": 7,
+        "end": 23,
+        "value": "tích hợp chatbot",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "next_job",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.9539973139762878,
+        "value": "tích",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "done_job",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.4563346803188324,
+        "value": "chatbot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

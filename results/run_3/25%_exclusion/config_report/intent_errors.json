@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Đề tài mà Nguyễn Phúc Vĩnh An làm là gì",
+    "intent": "ask_enroll_from_student",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.9301997423171997
+    }
+  },
+  {
+    "text": "nếu còn gì thêm, tôi sẽ quay lại",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.45283958315849304
+    }
+  },
+  {
+    "text": "tôi muốn nói chuyện",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_lastest_report",
+      "confidence": 0.7950778603553772
+    }
+  }
+]

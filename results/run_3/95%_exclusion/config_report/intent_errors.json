@@ -1,0 +1,90 @@
+[
+  {
+    "text": "Tôi muốn xem đề tài của Trần Phước An",
+    "intent": "ask_enroll_from_student",
+    "intent_prediction": {
+      "name": "ask_lastest_report_from_student",
+      "confidence": 0.5991157293319702
+    }
+  },
+  {
+    "text": "Đề tài mà Nguyễn Phúc Vĩnh An làm là gì",
+    "intent": "ask_enroll_from_student",
+    "intent_prediction": {
+      "name": "ask_lastest_report",
+      "confidence": 0.4194711744785309
+    }
+  },
+  {
+    "text": "Bạn có thể cho tôi xem báo cáo mới nhất không?",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "ask_random_topic",
+      "confidence": 0.5181998610496521
+    }
+  },
+  {
+    "text": "Cho tôi xem báo cáo mới nhất của tôi",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.332766056060791
+    }
+  },
+  {
+    "text": "chúc bạn một ngày tốt lành",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_lastest_report",
+      "confidence": 0.6712497472763062
+    }
+  },
+  {
+    "text": "nếu còn gì thêm, tôi sẽ quay lại",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_random_topic",
+      "confidence": 0.3351283073425293
+    }
+  },
+  {
+    "text": "tôi tên là gì",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_lastest_report",
+      "confidence": 0.6190782189369202
+    }
+  },
+  {
+    "text": "tôi muốn nói chuyện",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_lastest_report_from_student",
+      "confidence": 0.21374574303627014
+    }
+  },
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.38390472531318665
+    }
+  },
+  {
+    "text": "tình hình của đề tài tôi thế nào",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.8895890116691589
+    }
+  },
+  {
+    "text": "tôi muốn biết thông tin về đề tài của tôi",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.960468590259552
+    }
+  }
+]

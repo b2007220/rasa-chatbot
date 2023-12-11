@@ -1,0 +1,130 @@
+[
+  {
+    "text": "Đề tài mà Nguyễn Phúc Vĩnh An làm là gì",
+    "entities": [
+      {
+        "start": 10,
+        "end": 29,
+        "value": "Nguyễn Phúc Vĩnh An",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person_name",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.9874752163887024,
+        "value": "Nguyễn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 27,
+        "end": 29,
+        "confidence_entity": 0.9787601828575134,
+        "value": "An",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biết ngày lần cuối tôi báo cáo tiến độ là khi nào?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "person_name",
+        "start": 39,
+        "end": 46,
+        "confidence_entity": 0.5750932693481445,
+        "value": "tiến độ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bạn có thể gợi ý cho tôi một đề tài [niên luận ngành] từ thầy Lưu Tiến Đạo không?",
+    "entities": [
+      {
+        "start": 62,
+        "end": 74,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 37,
+        "end": 52,
+        "confidence_entity": 0.9776523113250732,
+        "value": "niên luận ngành",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person_name",
+        "start": 62,
+        "end": 74,
+        "confidence_entity": 0.997246265411377,
+        "value": "Lưu Tiến Đạo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tạo ra giao diện chatbot",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "value": "Tạo ra giao diện chatbot",
+        "entity": "done_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 7,
+        "end": 24,
+        "confidence_entity": 0.4546767473220825,
+        "value": "giao diện chatbot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "thiết kế giao diện cho chatbot là nội dung tôi đã làm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 30,
+        "value": "thiết kế giao diện cho chatbot",
+        "entity": "done_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 0,
+        "end": 18,
+        "confidence_entity": 0.997231662273407,
+        "value": "thiết kế giao diện",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "done_job",
+        "start": 38,
+        "end": 42,
+        "confidence_entity": 0.4937708079814911,
+        "value": "dung",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "text": "báo cáo tiến độ lần cuối của Lê Mỹ Duyên",
+    "intent": "ask_lastest_report_from_student",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.9310035109519958
+    }
+  },
+  {
+    "text": "Cho tôi xem báo cáo tiến độ mới nhất của minh",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "ask_lastest_report_from_student",
+      "confidence": 0.4657229781150818
+    }
+  },
+  {
+    "text": "tôi muốn biết về tài khoản của mình",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.9337350130081177
+    }
+  },
+  {
+    "text": "thông tin về tôi",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.8900097608566284
+    }
+  },
+  {
+    "text": "hế nhô",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.46000468730926514
+    }
+  },
+  {
+    "text": "tôi muốn kết nối",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.9170489311218262
+    }
+  },
+  {
+    "text": "tôi đang làm niên luận ngành hay cơ sở",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_random_topic",
+      "confidence": 0.987329363822937
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "text": "Đề tài mà Nguyễn Phúc Vĩnh An làm là gì",
+    "entities": [
+      {
+        "start": 10,
+        "end": 29,
+        "value": "Nguyễn Phúc Vĩnh An",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person_name",
+        "start": 10,
+        "end": 21,
+        "confidence_entity": 0.8203568458557129,
+        "value": "Nguyễn Phúc",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 27,
+        "end": 29,
+        "confidence_entity": 0.9764744639396667,
+        "value": "An",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bạn có thể gợi ý cho tôi một đề tài [niên luận ngành] từ thầy Lưu Tiến Đạo không?",
+    "entities": [
+      {
+        "start": 62,
+        "end": 74,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 37,
+        "end": 52,
+        "confidence_entity": 0.5699650645256042,
+        "value": "niên luận ngành",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person_name",
+        "start": 62,
+        "end": 74,
+        "confidence_entity": 0.9914582371711731,
+        "value": "Lưu Tiến Đạo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]

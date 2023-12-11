@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Trần Phước An đã báo cáo lần cuối vào ngày nào",
+    "intent": "ask_lastest_report_from_student",
+    "intent_prediction": {
+      "name": "ask_enroll_from_student",
+      "confidence": 0.5778371691703796
+    }
+  },
+  {
+    "text": "Bạn có thể cho tôi xem báo cáo mới nhất không?",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "ask_lastest_report_from_student",
+      "confidence": 0.5750832557678223
+    }
+  },
+  {
+    "text": "nếu còn gì thêm, tôi sẽ quay lại",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.3522353172302246
+    }
+  }
+]

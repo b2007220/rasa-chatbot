@@ -1,0 +1,65 @@
+version: "3.1"
+nlu:
+- intent: ask_enroll_from_student
+  examples: |
+    - Tôi muốn xem đề tài của [Trần Phước An](person_name)
+    - Đề tài mà [Nguyễn Phúc Vĩnh An](person_name) làm là gì
+- intent: ask_lastest_report_from_student
+  examples: |
+    - Cho tôi xem báo cáo mới nhất của [Trần Phước An](person_name)
+    - [Trần Phước An](person_name) đã báo cáo lần cuối vào ngày nào
+- intent: thank
+  examples: |
+    - Cảm ơn
+    - Cảm ơn rất nhiều
+- intent: create_new_report
+  examples: |
+    - Bắt đầu báo cáo mới
+    - tôi muốn tạo báo cáo mới
+- intent: ask_lastest_report
+  examples: |
+    - Bạn có thể cho tôi xem báo cáo mới nhất không?
+    - Cho tôi biết ngày lần cuối tôi báo cáo tiến độ là khi nào?
+    - Cho tôi xem báo cáo mới nhất của tôi
+- intent: goodbye
+  examples: |
+    - chúc bạn một ngày tốt lành
+    - nếu còn gì thêm, tôi sẽ quay lại
+- intent: ask_user_infor
+  examples: |
+    - tôi muốn biết về tài khoản của mình
+    - tôi tên là gì
+    - thông tin của tôi
+- intent: provide_promise_day
+  examples: |
+    - Dự kiến hoàn thành vào ngày [20/11/2023](promise_day)
+    - ngày [20/11/2023](promise_day)
+- intent: greet
+  examples: |
+    - tôi muốn nói chuyện
+    - hello
+    - tôi cần tư vấn
+- intent: ask_random_topic
+  examples: |
+    - Bạn có thể gợi ý cho tôi một đề tài [niên luận cơ sở] từ cô [Nguyễn Uyên My](person_name) không?
+    - Đưa ra cho tôi một đề tài [niên luận cơ sở](topic_type) từ thầy [Lưu Tiến Đạo](person_name) được không?
+    - Bạn có thể gợi ý cho tôi một đề tài [niên luận ngành] từ thầy [Lưu Tiến Đạo](person_name) không?
+- intent: ask_enroll_infor
+  examples: |
+    - tình hình của đề tài tôi thế nào
+    - cho tôi biết đề tài tôi đã đăng kí
+    - tên đề tài tôi đăng kí là gì
+    - tôi muốn biết thông tin về đề tài của tôi
+- intent: provide_next_job
+  examples: |
+    - Tiếp theo tôi sẽ [tích hợp chatbot vào website] (next_job)
+    - Chắc là tôi sẽ [tích hợp chatbot vào website của trường] (next_job)
+    - công việc tiếp theo tôi sẽ làm là [tích hợp chatbot vào website của trường] (next_job)
+    - công việc tôi chuẩn bị làm là [tích hợp chatbot vào website của trường] (next_job)
+- intent: provide_done_job
+  examples: |
+    - tôi đã hoàn thành [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job)
+    - Tôi đã làm được công việc [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job)
+    - Tôi đã làm được công việc [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job) rồi
+    - [Tạo ra giao diện chatbot](done_job)
+    - [thiết kế giao diện cho chatbot](done_job) là nội dung tôi đã làm

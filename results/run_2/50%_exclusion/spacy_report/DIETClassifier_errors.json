@@ -1,0 +1,124 @@
+[
+  {
+    "text": "Bạn có thể gợi ý cho tôi một đề tài [niên luận ngành] từ thầy Lưu Tiến Đạo không?",
+    "entities": [
+      {
+        "start": 62,
+        "end": 74,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 37,
+        "end": 52,
+        "confidence_entity": 0.5237224698066711,
+        "value": "niên luận ngành",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person_name",
+        "start": 62,
+        "end": 74,
+        "confidence_entity": 0.9986209869384766,
+        "value": "Lưu Tiến Đạo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tôi nghĩ tiếp theo tôi sẽ tích hợp chatbot vào website của trường",
+    "entities": [
+      {
+        "start": 26,
+        "end": 65,
+        "value": "tích hợp chatbot vào website của trường",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "next_job",
+        "start": 26,
+        "end": 42,
+        "confidence_entity": 0.5602272152900696,
+        "value": "tích hợp chatbot",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "công việc tiếp theo tôi sẽ làm là [tích hợp chatbot vào website của trường] (next_job)",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 44,
+        "end": 51,
+        "confidence_entity": 0.4287044405937195,
+        "value": "chatbot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi chuẩn bị [tích hợp chatbot vào website của trường] (next_job)",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 23,
+        "end": 30,
+        "confidence_entity": 0.425899863243103,
+        "value": "chatbot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "công việc tiếp mà tôi sẽ làm là [tích hợp chatbot vào website của trường] (next_job)",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 42,
+        "end": 49,
+        "confidence_entity": 0.4280444383621216,
+        "value": "chatbot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi đã thiết kế giao diện cho chatbot xong",
+    "entities": [
+      {
+        "start": 7,
+        "end": 37,
+        "value": "thiết kế giao diện cho chatbot",
+        "entity": "done_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 7,
+        "end": 42,
+        "confidence_entity": 0.33041059970855713,
+        "value": "thiết kế giao diện cho chatbot xong",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

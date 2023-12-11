@@ -1,0 +1,341 @@
+[
+  {
+    "text": "Đề tài mà Nguyễn Phúc Vĩnh An làm là gì",
+    "entities": [
+      {
+        "start": 10,
+        "end": 29,
+        "value": "Nguyễn Phúc Vĩnh An",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person_name",
+        "start": 27,
+        "end": 29,
+        "confidence_entity": 0.9966468214988708,
+        "value": "An",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bạn có thể cho tôi xem báo cáo mới nhất không?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 45,
+        "end": 46,
+        "confidence_entity": 0.20286943018436432,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biết ngày lần cuối tôi báo cáo tiến độ là khi nào?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 57,
+        "end": 58,
+        "confidence_entity": 0.1989593505859375,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bạn có thể gợi ý cho tôi một đề tài [niên luận cơ sở] từ cô Nguyễn Uyên My không?",
+    "entities": [
+      {
+        "start": 60,
+        "end": 74,
+        "value": "Nguyễn Uyên My",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 37,
+        "end": 52,
+        "confidence_entity": 0.9962025284767151,
+        "value": "niên luận cơ sở",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "topic_type",
+        "start": 57,
+        "end": 59,
+        "confidence_entity": 0.37196940183639526,
+        "value": "cô",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic_type",
+        "start": 67,
+        "end": 71,
+        "confidence_entity": 0.4796260595321655,
+        "value": "Uyên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "done_job",
+        "start": 80,
+        "end": 81,
+        "confidence_entity": 0.20015808939933777,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Đưa ra cho tôi một đề tài niên luận cơ sở từ thầy Lưu Tiến Đạo được không?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 41,
+        "value": "niên luận cơ sở",
+        "entity": "topic_type"
+      },
+      {
+        "start": 50,
+        "end": 62,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 26,
+        "end": 41,
+        "confidence_entity": 0.9985033273696899,
+        "value": "niên luận cơ sở",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person_name",
+        "start": 50,
+        "end": 62,
+        "confidence_entity": 0.9800057411193848,
+        "value": "Lưu Tiến Đạo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "done_job",
+        "start": 73,
+        "end": 74,
+        "confidence_entity": 0.19809375703334808,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bạn có thể gợi ý cho tôi một đề tài [niên luận ngành] từ thầy Lưu Tiến Đạo không?",
+    "entities": [
+      {
+        "start": 62,
+        "end": 74,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 37,
+        "end": 46,
+        "confidence_entity": 0.9973015189170837,
+        "value": "niên luận",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 62,
+        "end": 74,
+        "confidence_entity": 0.9676265120506287,
+        "value": "Lưu Tiến Đạo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "done_job",
+        "start": 80,
+        "end": 81,
+        "confidence_entity": 0.20009873807430267,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi đã hoàn thành thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu",
+    "entities": [
+      {
+        "start": 18,
+        "end": 74,
+        "value": "thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu",
+        "entity": "done_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 18,
+        "end": 36,
+        "confidence_entity": 0.9972802400588989,
+        "value": "thiết kế giao diện",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic_type",
+        "start": 61,
+        "end": 69,
+        "confidence_entity": 0.446453332901001,
+        "value": "cơ sở dữ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 70,
+        "end": 74,
+        "confidence_entity": 0.5692078471183777,
+        "value": "liệu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi đã làm được công việc thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu",
+    "entities": [
+      {
+        "start": 26,
+        "end": 82,
+        "value": "thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu",
+        "entity": "done_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 26,
+        "end": 44,
+        "confidence_entity": 0.9970031380653381,
+        "value": "thiết kế giao diện",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic_type",
+        "start": 69,
+        "end": 77,
+        "confidence_entity": 0.44241827726364136,
+        "value": "cơ sở dữ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 78,
+        "end": 82,
+        "confidence_entity": 0.4131091833114624,
+        "value": "liệu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tôi đã làm được công việc thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu rồi",
+    "entities": [
+      {
+        "start": 26,
+        "end": 82,
+        "value": "thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu",
+        "entity": "done_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 26,
+        "end": 44,
+        "confidence_entity": 0.9969745874404907,
+        "value": "thiết kế giao diện",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic_type",
+        "start": 69,
+        "end": 77,
+        "confidence_entity": 0.35988834500312805,
+        "value": "cơ sở dữ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 78,
+        "end": 82,
+        "confidence_entity": 0.6480002403259277,
+        "value": "liệu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tạo ra giao diện chatbot",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "value": "Tạo ra giao diện chatbot",
+        "entity": "done_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 7,
+        "end": 24,
+        "confidence_entity": 0.5946744680404663,
+        "value": "giao diện chatbot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "thiết kế giao diện cho chatbot là nội dung tôi đã làm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 30,
+        "value": "thiết kế giao diện cho chatbot",
+        "entity": "done_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 0,
+        "end": 18,
+        "confidence_entity": 0.9969496130943298,
+        "value": "thiết kế giao diện",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

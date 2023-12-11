@@ -1,0 +1,58 @@
+[
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9837061166763306
+    }
+  },
+  {
+    "text": "cho tôi biết thông tin của mình",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.9884434342384338
+    }
+  },
+  {
+    "text": "thông tin của tôi",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.9995962977409363
+    }
+  },
+  {
+    "text": "một số thông tin của tôi",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.9985357522964478
+    }
+  },
+  {
+    "text": "tôi đang ở đây",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.6097158789634705
+    }
+  },
+  {
+    "text": "chào",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8576253652572632
+    }
+  },
+  {
+    "text": "tên đề tài tôi đăng kí là gì",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.4789527356624603
+    }
+  }
+]

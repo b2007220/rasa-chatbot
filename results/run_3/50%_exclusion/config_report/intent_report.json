@@ -1,0 +1,121 @@
+{
+  "ask_user_infor": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3,
+    "confused_with": {
+      "ask_enroll_infor": 1
+    }
+  },
+  "thank": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "provide_done_job": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "ask_lastest_report": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "ask_enroll_infor": 1
+    }
+  },
+  "provide_promise_day": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "ask_enroll_infor": {
+    "precision": 0.4,
+    "recall": 0.5,
+    "f1-score": 0.4444444444444445,
+    "support": 4,
+    "confused_with": {
+      "ask_enroll_from_student": 2
+    }
+  },
+  "provide_next_job": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "ask_lastest_report_from_student": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 2,
+    "confused_with": {}
+  },
+  "ask_enroll_from_student": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "ask_lastest_report_from_student": 1,
+      "ask_enroll_infor": 1
+    }
+  },
+  "create_new_report": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "ask_random_topic": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "accuracy": 0.8378378378378378,
+  "macro avg": {
+    "precision": 0.8512820512820513,
+    "recall": 0.8205128205128205,
+    "f1-score": 0.8239316239316239,
+    "support": 37
+  },
+  "weighted avg": {
+    "precision": 0.863063063063063,
+    "recall": 0.8378378378378378,
+    "f1-score": 0.8408408408408409,
+    "support": 37
+  },
+  "micro avg": {
+    "precision": 0.8378378378378378,
+    "recall": 0.8378378378378378,
+    "f1-score": 0.8378378378378378,
+    "support": 37
+  }
+}

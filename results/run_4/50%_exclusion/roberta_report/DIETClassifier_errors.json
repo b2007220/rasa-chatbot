@@ -1,0 +1,116 @@
+[
+  {
+    "text": "Trần Phước An đã đăng kí đề tài ngành hay cơ sở",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "Trần Phước An",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person_name",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.9987051486968994,
+        "value": "Trần Phước An",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "topic_type",
+        "start": 32,
+        "end": 37,
+        "confidence_entity": 0.5914998650550842,
+        "value": "ngành",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic_type",
+        "start": 45,
+        "end": 47,
+        "confidence_entity": 0.8449563384056091,
+        "value": "sở",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Chọn một đề tài [niên luận cơ sở] từ cô Nguyễn Uyên My cho tôi được không",
+    "entities": [
+      {
+        "start": 40,
+        "end": 54,
+        "value": "Nguyễn Uyên My",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.5451790690422058,
+        "value": "luận cơ sở",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 40,
+        "end": 54,
+        "confidence_entity": 0.9972834587097168,
+        "value": "Nguyễn Uyên My",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tiếp theo tôi sẽ tích hợp chatbot",
+    "entities": [
+      {
+        "start": 17,
+        "end": 33,
+        "value": "tích hợp chatbot",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.811546266078949,
+        "value": "chatbot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi sẽ tích hợp chatbot",
+    "entities": [
+      {
+        "start": 7,
+        "end": 23,
+        "value": "tích hợp chatbot",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "next_job",
+        "start": 12,
+        "end": 23,
+        "confidence_entity": 0.611797034740448,
+        "value": "hợp chatbot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

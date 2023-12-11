@@ -1,0 +1,18 @@
+[
+  {
+    "text": "tôi tên là gì",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.5573766827583313
+    }
+  },
+  {
+    "text": "tôi cần hỗ trợ",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.6763823628425598
+    }
+  }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "text": "Tôi muốn tìm một đề tài niên luận ngành ngẫu nhiên từ thầy Lưu Tiến Đạo",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "value": "niên luận ngành",
+        "entity": "topic_type"
+      },
+      {
+        "start": 59,
+        "end": 71,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.5936241745948792,
+        "value": "niên",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "topic_type",
+        "start": 34,
+        "end": 39,
+        "confidence_entity": 0.9812992215156555,
+        "value": "ngành",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 59,
+        "end": 71,
+        "confidence_entity": 0.9929856657981873,
+        "value": "Lưu Tiến Đạo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Bạn có thể gợi ý cho tôi một đề tài [niên luận ngành] từ thầy Lưu Tiến Đạo không?",
+    "entities": [
+      {
+        "start": 62,
+        "end": 74,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 37,
+        "end": 52,
+        "confidence_entity": 0.8913031816482544,
+        "value": "niên luận ngành",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person_name",
+        "start": 62,
+        "end": 74,
+        "confidence_entity": 0.9918726086616516,
+        "value": "Lưu Tiến Đạo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Bạn có thể gợi ý cho tôi một đề tài [niên luận cơ sở] từ cô Nguyễn Uyên My không?",
+    "entities": [
+      {
+        "start": 60,
+        "end": 74,
+        "value": "Nguyễn Uyên My",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.7794701457023621,
+        "value": "niên",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "topic_type",
+        "start": 47,
+        "end": 52,
+        "confidence_entity": 0.41910457611083984,
+        "value": "cơ sở",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person_name",
+        "start": 60,
+        "end": 71,
+        "confidence_entity": 0.4341444671154022,
+        "value": "Nguyễn Uyên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi nghĩ tiếp theo tôi sẽ tích hợp chatbot vào website của trường",
+    "entities": [
+      {
+        "start": 26,
+        "end": 65,
+        "value": "tích hợp chatbot vào website của trường",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

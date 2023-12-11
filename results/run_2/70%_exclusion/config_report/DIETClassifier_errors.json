@@ -1,0 +1,90 @@
+[
+  {
+    "text": "Bạn có thể gợi ý cho tôi một đề tài [niên luận ngành] từ thầy Lưu Tiến Đạo không?",
+    "entities": [
+      {
+        "start": 62,
+        "end": 74,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 37,
+        "end": 52,
+        "confidence_entity": 0.512513279914856,
+        "value": "niên luận ngành",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person_name",
+        "start": 62,
+        "end": 74,
+        "confidence_entity": 0.9988632202148438,
+        "value": "Lưu Tiến Đạo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Bạn có thể gợi ý cho tôi một đề tài [niên luận cơ sở] từ cô Nguyễn Uyên My không?",
+    "entities": [
+      {
+        "start": 60,
+        "end": 74,
+        "value": "Nguyễn Uyên My",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 37,
+        "end": 52,
+        "confidence_entity": 0.5066795945167542,
+        "value": "niên luận cơ sở",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "person_name",
+        "start": 60,
+        "end": 71,
+        "confidence_entity": 0.9289062023162842,
+        "value": "Nguyễn Uyên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi nghĩ tiếp theo tôi sẽ tích hợp chatbot vào website của trường",
+    "entities": [
+      {
+        "start": 26,
+        "end": 65,
+        "value": "tích hợp chatbot vào website của trường",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "next_job",
+        "start": 31,
+        "end": 65,
+        "confidence_entity": 0.5118374824523926,
+        "value": "hợp chatbot vào website của trường",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

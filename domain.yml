@@ -14,12 +14,11 @@ intents:
   - provide_promise_day
   - thank
 entities:
-  - job:
-      role:
-      - done_job
-      - next_job
+  - done_job
+  - next_job
   - person_name
   - topic_type
+  - promise_day
 forms:
   report_form:
     required_slots:
@@ -37,8 +36,7 @@ slots:
     influence_conversation: true
     mappings:
     - type: from_entity
-      entity: job
-      role: done_job
+      entity: done_job
       conditions:
       - active_loop: report_form
         requested_slot: done_job
@@ -47,8 +45,7 @@ slots:
     influence_conversation: true
     mappings:
     - type: from_entity
-      entity: job
-      role: next_job
+      entity: next_job
       conditions:
       - active_loop: report_form
         requested_slot: next_job

@@ -1,0 +1,88 @@
+[
+  {
+    "text": "Trần Phước An đã đăng kí đề tài ngành hay cơ sở",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "Trần Phước An",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person_name",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.9982060194015503,
+        "value": "Trần Phước An",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "topic_type",
+        "start": 42,
+        "end": 47,
+        "confidence_entity": 0.7592670321464539,
+        "value": "cơ sở",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tiếp theo tôi sẽ tích hợp chatbot",
+    "entities": [
+      {
+        "start": 17,
+        "end": 33,
+        "value": "tích hợp chatbot",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi sẽ tích hợp chatbot",
+    "entities": [
+      {
+        "start": 7,
+        "end": 23,
+        "value": "tích hợp chatbot",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "next_job",
+        "start": 12,
+        "end": 23,
+        "confidence_entity": 0.4250216484069824,
+        "value": "hợp chatbot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi đã thiết kế giao diện cho chatbot xong",
+    "entities": [
+      {
+        "start": 7,
+        "end": 37,
+        "value": "thiết kế giao diện cho chatbot",
+        "entity": "done_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 7,
+        "end": 42,
+        "confidence_entity": 0.47530922293663025,
+        "value": "thiết kế giao diện cho chatbot xong",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

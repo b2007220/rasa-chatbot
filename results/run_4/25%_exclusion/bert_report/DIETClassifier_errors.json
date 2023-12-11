@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Tiếp theo tôi sẽ tích hợp chatbot",
+    "entities": [
+      {
+        "start": 17,
+        "end": 33,
+        "value": "tích hợp chatbot",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi sẽ tích hợp chatbot",
+    "entities": [
+      {
+        "start": 7,
+        "end": 23,
+        "value": "tích hợp chatbot",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

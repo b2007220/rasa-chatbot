@@ -1,0 +1,112 @@
+[
+  {
+    "text": "Đề tài mà Nguyễn Phúc Vĩnh An làm là gì",
+    "entities": [
+      {
+        "start": 10,
+        "end": 29,
+        "value": "Nguyễn Phúc Vĩnh An",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person_name",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.9991538524627686,
+        "value": "Nguyễn",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 27,
+        "end": 29,
+        "confidence_entity": 0.9949334263801575,
+        "value": "An",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho tôi biết ngày lần cuối tôi báo cáo tiến độ là khi nào?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "person_name",
+        "start": 39,
+        "end": 43,
+        "confidence_entity": 0.9977320432662964,
+        "value": "tiến",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Đưa ra cho tôi một đề tài niên luận cơ sở từ thầy Lưu Tiến Đạo được không?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 41,
+        "value": "niên luận cơ sở",
+        "entity": "topic_type"
+      },
+      {
+        "start": 50,
+        "end": 62,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.634244441986084,
+        "value": "cho",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "done_job",
+        "start": 26,
+        "end": 41,
+        "confidence_entity": 0.67,
+        "value": "niên luận cơ sở",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 50,
+        "end": 62,
+        "confidence_entity": 0.9986143112182617,
+        "value": "Lưu Tiến Đạo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tạo ra giao diện chatbot",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "value": "Tạo ra giao diện chatbot",
+        "entity": "done_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "done_job",
+        "start": 7,
+        "end": 24,
+        "confidence_entity": 0.5527222156524658,
+        "value": "giao diện chatbot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

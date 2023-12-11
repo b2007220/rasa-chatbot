@@ -1,0 +1,34 @@
+[
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_random_topic",
+      "confidence": 0.47354263067245483
+    }
+  },
+  {
+    "text": "tôi đang ở đây",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.36520451307296753
+    }
+  },
+  {
+    "text": "chào",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9163123965263367
+    }
+  },
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.7074269652366638
+    }
+  }
+]

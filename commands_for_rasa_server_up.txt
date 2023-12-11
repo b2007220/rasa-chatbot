@@ -15,4 +15,4 @@ rasa run --cors "*" --enable-api
 
 rasa run actions --action actions --debug
 
-rasa test nlu --config  phoBert.yml bert.yml config.yml roberta.yml --nlu data/nlu.yml --runs 4 --percentages 25 50 70 95 
+rasa test nlu --config bert.yml config.yml roberta.yml spacy.yml --nlu data/nlu.yml --runs 1 --percentages 25 50 70 95 

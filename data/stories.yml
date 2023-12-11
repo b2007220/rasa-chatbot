@@ -100,6 +100,10 @@ stories:
     - slot_was_set:
       - topic_type: niên luận ngành
     - action: action_ask_random_topic
+    - intent: thank
+    - action: utter_appreciate
+    - intent: goodbye
+    - action: utter_goodbye
 
   - story: interactive_story_4
     steps:
@@ -110,24 +114,24 @@ stories:
       - active_loop: report_form
       - slot_was_set:
         - requested_slot: done_job
-      - intent: provide_done_job
       - slot_was_set:
         - done_job: Tạo ra giao diện chatbot
       - slot_was_set:
         - requested_slot: next_job
-      - intent: provide_next_job
       - slot_was_set:
         - next_job: tích hợp chatbot
       - slot_was_set:
         - requested_slot: promise_day
-      - intent: provide_promise_day
       - slot_was_set:
         - promise_day: 13/02/2024
       - slot_was_set:
         - requested_slot: null
       - active_loop: null
       - action: action_create_report
-
+      - intent: thank
+      - action: utter_appreciate
+      - intent: goodbye
+      - action: utter_goodbye
 
   - story: interactive_story_5
     steps:
@@ -136,22 +140,24 @@ stories:
       - active_loop: report_form
       - slot_was_set:
         - requested_slot: done_job
-      - intent: provide_done_job
       - slot_was_set:
         - done_job: phát triển website
       - slot_was_set:
         - requested_slot: next_job
-      - intent: provide_next_job
       - slot_was_set:
         - next_job: cải thiện quá trình học tập
       - slot_was_set:
         - requested_slot: promise_day
-      - intent: provide_promise_day
       - slot_was_set:
         - promise_day: 13/02/2024
       - slot_was_set:
         - requested_slot: null
       - active_loop: null
       - action: action_create_report
+      - intent: thank
+      - action: utter_appreciate
+      - intent: goodbye
+      - action: utter_goodbye
+
 
 

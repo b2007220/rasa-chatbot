@@ -1,0 +1,58 @@
+{
+  "topic_type": {
+    "precision": 0.46153846153846156,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.6,
+    "support": 7,
+    "confused_with": {}
+  },
+  "promise_day": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "next_job": {
+    "precision": 0.2727272727272727,
+    "recall": 1.0,
+    "f1-score": 0.42857142857142855,
+    "support": 6,
+    "confused_with": {}
+  },
+  "done_job": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 37,
+    "confused_with": {}
+  },
+  "person_name": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 21,
+    "confused_with": {
+      "topic_type": 1
+    }
+  },
+  "micro avg": {
+    "precision": 0.75,
+    "recall": 0.9452054794520548,
+    "f1-score": 0.8363636363636364,
+    "support": 73
+  },
+  "macro avg": {
+    "precision": 0.7468531468531469,
+    "recall": 0.9428571428571428,
+    "f1-score": 0.7903296703296703,
+    "support": 73
+  },
+  "weighted avg": {
+    "precision": 0.8885908611936009,
+    "recall": 0.9452054794520548,
+    "f1-score": 0.8925485473430679,
+    "support": 73
+  },
+  "accuracy": 0.9221556886227545
+}

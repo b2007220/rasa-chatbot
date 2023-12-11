@@ -1,0 +1,18 @@
+[
+  {
+    "text": "nếu còn gì thêm, tôi sẽ quay lại",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.39445626735687256
+    }
+  },
+  {
+    "text": "tôi muốn nói chuyện",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_lastest_report",
+      "confidence": 0.19676591455936432
+    }
+  }
+]

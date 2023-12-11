@@ -1,0 +1,66 @@
+[
+  {
+    "text": "Cho tôi xem đề tài của Trần Phước An đã đăng kí",
+    "intent": "ask_enroll_from_student",
+    "intent_prediction": {
+      "name": "ask_lastest_report_from_student",
+      "confidence": 0.2619636654853821
+    }
+  },
+  {
+    "text": "Trần Phước An đã đăng kí đề tài gì",
+    "intent": "ask_enroll_from_student",
+    "intent_prediction": {
+      "name": "ask_lastest_report_from_student",
+      "confidence": 0.8452251553535461
+    }
+  },
+  {
+    "text": "báo cáo tiến độ lần cuối của Lê Mỹ Duyên",
+    "intent": "ask_lastest_report_from_student",
+    "intent_prediction": {
+      "name": "ask_lastest_report",
+      "confidence": 0.38761991262435913
+    }
+  },
+  {
+    "text": "hẹn gặp bạn sau",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "provide_next_job",
+      "confidence": 0.2824508845806122
+    }
+  },
+  {
+    "text": "hẹn gặp lại",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "provide_next_job",
+      "confidence": 0.29114577174186707
+    }
+  },
+  {
+    "text": "tôi muốn biết về tài khoản của mình",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.28662416338920593
+    }
+  },
+  {
+    "text": "tôi muốn kết nối",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "provide_promise_day",
+      "confidence": 0.300091415643692
+    }
+  },
+  {
+    "text": "tôi đang làm niên luận ngành hay cơ sở",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_random_topic",
+      "confidence": 0.7373549938201904
+    }
+  }
+]

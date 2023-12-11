@@ -4,7 +4,7 @@ assistant_id: 20231030-023228-spry-ambiance
 
 language: vi
 pipeline:
-  - name: VietnameseTokenizer
+  - name: WhitespaceTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
@@ -33,4 +33,4 @@ policies:
     - name: TEDPolicy
       max_history: 5
       epochs: 100
-    #   constrain_similarities: true
+      constrain_similarities: true

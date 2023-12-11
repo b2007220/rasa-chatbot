@@ -1,0 +1,50 @@
+[
+  {
+    "text": "Cảm ơn",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.48337826132774353
+    }
+  },
+  {
+    "text": "Bạn có thể cho tôi xem báo cáo mới nhất không?",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "ask_random_topic",
+      "confidence": 0.40050143003463745
+    }
+  },
+  {
+    "text": "nếu còn gì thêm, tôi sẽ quay lại",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "provide_next_job",
+      "confidence": 0.2307949960231781
+    }
+  },
+  {
+    "text": "tôi tên là gì",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.49810439348220825
+    }
+  },
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9948686361312866
+    }
+  },
+  {
+    "text": "tôi muốn biết thông tin về đề tài của tôi",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.9453911781311035
+    }
+  }
+]

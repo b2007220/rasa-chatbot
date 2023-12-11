@@ -1,0 +1,18 @@
+[
+  {
+    "text": "tôi đang ở đây",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.9064965844154358
+    }
+  },
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.18857963383197784
+    }
+  }
+]

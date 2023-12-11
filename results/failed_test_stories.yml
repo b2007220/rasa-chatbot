@@ -1,0 +1,95 @@
+version: "3.1"
+stories:
+- story: interactive_story_1 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: create_new_report
+  - action: report_form
+  - active_loop: report_form
+  - action: utter_ask_done_job  # predicted: action_listen
+  - slot_was_set:
+    - requested_slot: done_job
+  - intent: provide_done_job
+    entities:
+    - done_job: tạo ra giao diện chatbot
+  - slot_was_set:
+    - done_job: Tạo ra giao diện chatbot
+  - action: utter_ask_next_job  # predicted: action_user_infor
+  - slot_was_set:
+    - requested_slot: next_job
+  - intent: provide_next_job  # predicted: greet: phân tích yêu cầu
+    entities: []
+  - slot_was_set:
+    - next_job: phân tích yêu cầu
+  - action: utter_ask_promise_day  # predicted: action_default_fallback
+  - slot_was_set:
+    - requested_slot: promise_day
+  - intent: provide_promise_day
+    entities:
+    - promise_day: 13/02/2024
+  - slot_was_set:
+    - promise_day: 13/02/2024
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_create_report  # predicted: action_default_fallback
+- story: interactive_story_5 (.\tests\test_stories.yml)
+  steps:
+  - intent: create_new_report
+  - action: report_form
+  - active_loop: report_form
+  - slot_was_set:
+    - requested_slot: done_job
+  - intent: provide_done_job  # predicted: ask_enroll_infor: Tôi đã hoàn thành được việc phát triển website
+    entities: []
+  - slot_was_set:
+    - done_job: phát triển website
+  - slot_was_set:
+    - requested_slot: next_job
+  - action: action_listen  # predicted: action_user_infor
+  - intent: provide_next_job
+  - slot_was_set:
+    - next_job: cải thiện quá trình học tập
+  - slot_was_set:
+    - requested_slot: promise_day
+  - action: action_listen  # predicted: action_create_report
+  - intent: provide_promise_day
+    entities:
+    - promise_day: 13/02/2024
+  - slot_was_set:
+    - promise_day: 13/02/2024
+  - slot_was_set:
+    - requested_slot: null
+  - active_loop: null
+  - action: action_create_report  # predicted: action_default_fallback
+- story: interactive_story_6 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_user_infor
+  - action: action_user_infor
+  - intent: ask_random_topic
+    entities:
+    - person_name: Nguyễn Uyên My
+  - slot_was_set:
+    - person_name: Nguyễn Uyên My
+  - slot_was_set:
+    - topic_type: niên luận ngành
+  - slot_was_set:
+    - person_name: Nguyễn Uyên My
+  - slot_was_set:
+    - topic_type: niên luận ngành
+  - action: action_listen  # predicted: action_ask_random_topic
+  - intent: thank
+  - action: utter_thank  # predicted: utter_appreciate
+  - intent: goodbye
+  - action: utter_goodbye
+- story: ask for random use (.\tests\test_stories.yml)
+  steps:
+  - intent: ask_random_topic
+    entities:
+    - person_name: Lưu Tiến Đạo
+  - slot_was_set:
+    - person_name: Lưu Tiến Đạo
+  - action: action_ask_random_topic

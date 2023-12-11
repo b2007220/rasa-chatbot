@@ -1,0 +1,90 @@
+[
+  {
+    "text": "Cho tôi xem đề tài của Trần Phước An đã đăng kí",
+    "intent": "ask_enroll_from_student",
+    "intent_prediction": {
+      "name": "ask_lastest_report_from_student",
+      "confidence": 0.7012144327163696
+    }
+  },
+  {
+    "text": "Trần Phước An đã đăng kí đề tài gì",
+    "intent": "ask_enroll_from_student",
+    "intent_prediction": {
+      "name": "ask_lastest_report_from_student",
+      "confidence": 0.8114706873893738
+    }
+  },
+  {
+    "text": "báo cáo tiến độ lần cuối của Lê Mỹ Duyên",
+    "intent": "ask_lastest_report_from_student",
+    "intent_prediction": {
+      "name": "ask_lastest_report",
+      "confidence": 0.36270928382873535
+    }
+  },
+  {
+    "text": "lần báo cáo gần nhất của tôi",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "ask_lastest_report_from_student",
+      "confidence": 0.9562287926673889
+    }
+  },
+  {
+    "text": "hẹn gặp bạn sau",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.9527739882469177
+    }
+  },
+  {
+    "text": "hẹn gặp lại",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.23342753946781158
+    }
+  },
+  {
+    "text": "hế nhô",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.4062318503856659
+    }
+  },
+  {
+    "text": "tôi muốn kết nối",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.3405747711658478
+    }
+  },
+  {
+    "text": "thông tin về đề tài của tôi",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.8919501304626465
+    }
+  },
+  {
+    "text": "tôi đang làm niên luận ngành hay cơ sở",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_random_topic",
+      "confidence": 0.9229674339294434
+    }
+  },
+  {
+    "text": "tôi đang làm đề tài gì",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_from_student",
+      "confidence": 0.8740656971931458
+    }
+  }
+]

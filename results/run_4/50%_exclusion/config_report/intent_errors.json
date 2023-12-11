@@ -1,0 +1,18 @@
+[
+  {
+    "text": "chào tạm biệt",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9331570863723755
+    }
+  },
+  {
+    "text": "tôi cần hỗ trợ",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.4433920979499817
+    }
+  }
+]

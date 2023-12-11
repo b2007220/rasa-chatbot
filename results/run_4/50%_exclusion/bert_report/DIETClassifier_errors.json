@@ -1,0 +1,64 @@
+[
+  {
+    "text": "Gợi ý một đề tài niên luận ngành từ thầy Lưu Tiến Đạo cho tôi được không?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 32,
+        "value": "niên luận ngành",
+        "entity": "topic_type"
+      },
+      {
+        "start": 41,
+        "end": 53,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 17,
+        "end": 26,
+        "confidence_entity": 0.6060415506362915,
+        "value": "niên luận",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 41,
+        "end": 53,
+        "confidence_entity": 0.9963130354881287,
+        "value": "Lưu Tiến Đạo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Tiếp theo tôi sẽ tích hợp chatbot",
+    "entities": [
+      {
+        "start": 17,
+        "end": 33,
+        "value": "tích hợp chatbot",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi sẽ tích hợp chatbot",
+    "entities": [
+      {
+        "start": 7,
+        "end": 23,
+        "value": "tích hợp chatbot",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

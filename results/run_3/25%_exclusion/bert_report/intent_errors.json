@@ -1,0 +1,10 @@
+[
+  {
+    "text": "nếu còn gì thêm, tôi sẽ quay lại",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.23078928887844086
+    }
+  }
+]

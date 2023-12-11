@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Bạn có thể gợi ý cho tôi một đề tài [niên luận ngành] từ thầy Lưu Tiến Đạo không?",
+    "entities": [
+      {
+        "start": 62,
+        "end": 74,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic_type",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.5261477828025818,
+        "value": "niên",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "topic_type",
+        "start": 47,
+        "end": 52,
+        "confidence_entity": 0.5102407336235046,
+        "value": "ngành",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person_name",
+        "start": 62,
+        "end": 74,
+        "confidence_entity": 0.9925830364227295,
+        "value": "Lưu Tiến Đạo",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tôi nghĩ tiếp theo tôi sẽ tích hợp chatbot vào website của trường",
+    "entities": [
+      {
+        "start": 26,
+        "end": 65,
+        "value": "tích hợp chatbot vào website của trường",
+        "entity": "next_job"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "next_job",
+        "start": 26,
+        "end": 34,
+        "confidence_entity": 0.4935896396636963,
+        "value": "tích hợp",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "next_job",
+        "start": 43,
+        "end": 54,
+        "confidence_entity": 0.5283986330032349,
+        "value": "vào website",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "next_job",
+        "start": 59,
+        "end": 65,
+        "confidence_entity": 0.5658150315284729,
+        "value": "trường",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

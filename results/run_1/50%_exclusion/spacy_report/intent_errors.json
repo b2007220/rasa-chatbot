@@ -1,0 +1,42 @@
+[
+  {
+    "text": "báo cáo tiến độ lần cuối của Lê Mỹ Duyên",
+    "intent": "ask_lastest_report_from_student",
+    "intent_prediction": {
+      "name": "ask_lastest_report",
+      "confidence": 0.609897792339325
+    }
+  },
+  {
+    "text": "Tôi muốn xem báo cáo tiến độ mới nhất của mình",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.5127882957458496
+    }
+  },
+  {
+    "text": "xin chào",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.6761742830276489
+    }
+  },
+  {
+    "text": "hế nhô",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9014319181442261
+    }
+  },
+  {
+    "text": "tôi đang làm niên luận ngành hay cơ sở",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_random_topic",
+      "confidence": 0.6407884955406189
+    }
+  }
+]

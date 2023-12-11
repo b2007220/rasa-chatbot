@@ -1,0 +1,41 @@
+version: "3.1"
+nlu:
+- intent: ask_enroll_from_student
+  examples: |
+    - Đề tài mà [Nguyễn Phúc Vĩnh An](person_name) làm là gì
+- intent: ask_lastest_report_from_student
+  examples: |
+    - Xem báo cáo mới nhất của [Trần Phước An](person_name)
+- intent: thank
+  examples: |
+    - Cảm ơn bạn đã giúp đỡ
+- intent: ask_lastest_report
+  examples: |
+    - Báo cáo gần đây nhất của tôi là khi nào?
+- intent: create_new_report
+  examples: |
+    - tôi muốn tạo báo cáo mới
+- intent: ask_user_infor
+  examples: |
+    - bạn có thể cho tôi biết thông tin của tôi không
+- intent: goodbye
+  examples: |
+    - chúc bạn một ngày tốt lành
+- intent: provide_promise_day
+  examples: |
+    - [20/11/2023](promise_day) là hạn chót của công việc
+- intent: greet
+  examples: |
+    - hi
+- intent: ask_random_topic
+  examples: |
+    - Đưa ra cho tôi một đề tài [niên luận cơ sở](topic_type) từ thầy [Lưu Tiến Đạo](person_name) được không?
+- intent: ask_enroll_infor
+  examples: |
+    - trạng thái của đề tài tôi đăng kí sao rồi
+- intent: provide_next_job
+  examples: |
+    - Tiếp theo tôi sẽ [tích hợp chatbot vào website của trường] (next_job)
+- intent: provide_done_job
+  examples: |
+    - tôi đã làm được công việc [thiết kế giao diện cho chatbot](done_job)

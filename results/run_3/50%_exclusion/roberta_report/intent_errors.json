@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Đề tài mà Nguyễn Phúc Vĩnh An làm là gì",
+    "intent": "ask_enroll_from_student",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.7431434988975525
+    }
+  },
+  {
+    "text": "Cho tôi biết ngày lần cuối tôi báo cáo tiến độ là khi nào?",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "ask_lastest_report_from_student",
+      "confidence": 0.593537449836731
+    }
+  },
+  {
+    "text": "tôi tên là gì",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.8015430569648743
+    }
+  },
+  {
+    "text": "cho tôi biết đề tài tôi đã đăng kí",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_from_student",
+      "confidence": 0.7583667039871216
+    }
+  },
+  {
+    "text": "tên đề tài tôi đăng kí là gì",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_from_student",
+      "confidence": 0.6098755598068237
+    }
+  }
+]

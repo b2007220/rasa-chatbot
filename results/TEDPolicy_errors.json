@@ -1,0 +1,140 @@
+[
+  {
+    "text": "cho tôi xem một đề tài niên luận cơ sở ngẫu nhiên của thầy Lưu Tiến Đạo",
+    "entities": [
+      {
+        "start": 23,
+        "end": 38,
+        "value": "niên luận cơ sở",
+        "entity": "topic_type"
+      },
+      {
+        "start": 59,
+        "end": 71,
+        "value": "Lưu Tiến Đạo",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tạo ra giao diện chatbot",
+    "entities": [
+      {
+        "text": "tạo ra giao diện chatbot",
+        "start": 0,
+        "end": 24,
+        "entity": "done_job",
+        "value": "tạo ra giao diện chatbot"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "phân tích yêu cầu",
+    "entities": [
+      {
+        "text": "phân tích yêu cầu",
+        "start": 0,
+        "end": 17,
+        "entity": "next_job",
+        "value": "phân tích yêu cầu"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tôi đã hoàn thành được việc phát triển website",
+    "entities": [
+      {
+        "text": "Tôi đã hoàn thành được việc phát triển website",
+        "start": 28,
+        "end": 46,
+        "entity": "done_job",
+        "value": "phát triển website"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Gợi ý cho tôi một đề tài niên luận ngành ngẫu nhiên của cô Nguyễn Uyên My",
+    "entities": [
+      {
+        "text": "Gợi ý cho tôi một đề tài niên luận ngành ngẫu nhiên của cô Nguyễn Uyên My",
+        "start": 25,
+        "end": 40,
+        "entity": "topic_type",
+        "value": "niên luận ngành"
+      },
+      {
+        "text": "Gợi ý cho tôi một đề tài niên luận ngành ngẫu nhiên của cô Nguyễn Uyên My",
+        "start": 59,
+        "end": 73,
+        "entity": "person_name",
+        "value": "Nguyễn Uyên My"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho tôi xem một đề tài niên luận cơ sở ngẫu nhiên của thầy Lưu Tiến Đạo",
+    "entities": [
+      {
+        "text": "cho tôi xem một đề tài niên luận cơ sở ngẫu nhiên của thầy Lưu Tiến Đạo",
+        "start": 59,
+        "end": 71,
+        "entity": "person_name",
+        "value": "Lưu Tiến Đạo"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho tôi xem báo cáo mới nhất của Lê Mỹ Duyên",
+    "entities": [
+      {
+        "start": 33,
+        "end": 44,
+        "value": "Lê Mỹ Duyên",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho tôi xem đề tài đã đăng ký của Nguyễn Phúc Vĩnh An",
+    "entities": [
+      {
+        "start": 34,
+        "end": 53,
+        "value": "Nguyễn Phúc Vĩnh An",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho tôi xem báo cáo mới nhất của Lê Mỹ Duyên",
+    "entities": [
+      {
+        "start": 33,
+        "end": 44,
+        "value": "Lê Mỹ Duyên",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho tôi xem đề tài đã đăng ký của Nguyễn Phúc Vĩnh An",
+    "entities": [
+      {
+        "start": 34,
+        "end": 53,
+        "value": "Nguyễn Phúc Vĩnh An",
+        "entity": "person_name"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

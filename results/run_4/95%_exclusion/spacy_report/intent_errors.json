@@ -1,0 +1,66 @@
+[
+  {
+    "text": "Cho tôi xem báo cáo tiến độ mới nhất của minh",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.5235662460327148
+    }
+  },
+  {
+    "text": "chào tạm biệt",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "provide_done_job",
+      "confidence": 0.5181821584701538
+    }
+  },
+  {
+    "text": "tạm biệt nhé",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "provide_done_job",
+      "confidence": 0.7075916528701782
+    }
+  },
+  {
+    "text": "tôi tên là gì",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_from_student",
+      "confidence": 0.30127397179603577
+    }
+  },
+  {
+    "text": "xin chào",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.21521489322185516
+    }
+  },
+  {
+    "text": "tôi cần hỗ trợ",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_lastest_report",
+      "confidence": 0.19639229774475098
+    }
+  },
+  {
+    "text": "có ai ở đó không",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.6763166189193726
+    }
+  },
+  {
+    "text": "có thông tin mới về đề tài của tôi không",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.9097726941108704
+    }
+  }
+]

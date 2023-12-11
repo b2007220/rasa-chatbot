@@ -79,6 +79,9 @@ nlu:
     - [20/11/2023](promise_day) là hạn chót của công việc
     - Dự kiến hoàn thành vào ngày [20/11/2023](promise_day)
     - [13/2/2024](promise_day)
+    - [24-12-2024](promise_day)
+    - tôi sẽ hoàn thành vào ngày [20-11-2023](promise_day)
+    - tôi sẽ hoàn thành vào ngày [20/11/2023](promise_day)
 - intent: create_new_report
   examples: |
     - Tôi muốn tạo báo cáo mới
@@ -160,49 +163,49 @@ nlu:
 
 - intent: provide_done_job
   examples: |
-    - [Tạo ra giao diện chatbot]{"entity": "job", "role": "done_job"}
-    - tôi đã [thiết kế giao diện cho chatbot]{"entity": "job", "role": "done_job"}
-    - tôi đã [thiết kế giao diện cho chatbot]{"entity": "job", "role": "done_job"} xong
-    - tôi đã [thiết kế giao diện cho chatbot]{"entity": "job", "role": "done_job"} rồi
-    - [thiết kế giao diện cho chatbot]{"entity": "job", "role": "done_job"} là nội dung tôi đã làm
-    - [thiết kế giao diện cho chatbot]{"entity": "job", "role": "done_job"} là công việc tôi đã làm
-    - Tôi đã hoàn thành công việc [thiết kế giao diện cho chatbot]{"entity": "job", "role": "done_job"}
-    - Tôi đã hoàn thành công việc [thiết kế giao diện cho chatbot]{"entity": "job", "role": "done_job"} rồi
-    - tôi đã làm được công việc [thiết kế giao diện cho chatbot]{"entity": "job", "role": "done_job"}
-    - tôi đã làm được công việc [thiết kế giao diện cho chatbot]{"entity": "job", "role": "done_job"} rồi
-    - Công việc tôi đã hoàn thành bao gồm [thiết kế giao diện cho chatbot]{"entity": "job", "role": "done_job"}
-    - Công việc tôi đã hoàn thành bao gồm [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu]{"entity": "job", "role": "done_job"}
-    - Công việc tôi đã hoàn thành bao gồm [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu]{"entity": "job", "role": "done_job"} rồi
-    - Tôi đã làm được công việc [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu]{"entity": "job", "role": "done_job"}
-    - Tôi đã làm được công việc [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu]{"entity": "job", "role": "done_job"} rồi
-    - Công việc tôi đã làm chính là [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu]{"entity": "job", "role": "done_job"}
-    - [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu]{"entity": "job", "role": "done_job"} là công việc tôi đã hoàn thành
-    - Những thứ tôi đã hoàn thành bao gồm [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu]{"entity": "job", "role": "done_job"}
-    - Những thứ tôi đã hoàn thành là [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu]{"entity": "job", "role": "done_job"}
-    - Những thứ tôi đã làm là [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu]{"entity": "job", "role": "done_job"}
-    - tôi đã hoàn thành [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu]{"entity": "job", "role": "done_job"}
-    - tôi đã xây dựng được [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu]{"entity": "job", "role": "done_job"}
-    - tôi đã xây dựng được [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu]{"entity": "job", "role": "done_job"} rồi
+    - [Tạo ra giao diện chatbot](done_job)
+    - tôi đã [thiết kế giao diện cho chatbot](done_job)
+    - tôi đã [thiết kế giao diện cho chatbot](done_job) xong
+    - tôi đã [thiết kế giao diện cho chatbot](done_job) rồi
+    - [thiết kế giao diện cho chatbot](done_job) là nội dung tôi đã làm
+    - [thiết kế giao diện cho chatbot](done_job) là công việc tôi đã làm
+    - Tôi đã hoàn thành công việc [thiết kế giao diện cho chatbot](done_job)
+    - Tôi đã hoàn thành công việc [thiết kế giao diện cho chatbot](done_job) rồi
+    - tôi đã làm được công việc [thiết kế giao diện cho chatbot](done_job)
+    - tôi đã làm được công việc [thiết kế giao diện cho chatbot](done_job) rồi
+    - Công việc tôi đã hoàn thành bao gồm [thiết kế giao diện cho chatbot](done_job)
+    - Công việc tôi đã hoàn thành bao gồm [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job)
+    - Công việc tôi đã hoàn thành bao gồm [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job) rồi
+    - Tôi đã làm được công việc [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job)
+    - Tôi đã làm được công việc [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job) rồi
+    - Công việc tôi đã làm chính là [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job)
+    - [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job) là công việc tôi đã hoàn thành
+    - Những thứ tôi đã hoàn thành bao gồm [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job)
+    - Những thứ tôi đã hoàn thành là [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job)
+    - Những thứ tôi đã làm là [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job)
+    - tôi đã hoàn thành [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job)
+    - tôi đã xây dựng được [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job)
+    - tôi đã xây dựng được [thiết kế giao diện cho chatbot và xây dựng cơ sở dữ liệu](done_job) rồi
 - intent: provide_next_job
   examples: |
-    - [tích hợp chatbot]{"entity": "job", "role": "next_job"}
-    - tôi sẽ [tích hợp chatbot]{"entity": "job", "role": "next_job"}
-    - Tiếp theo tôi sẽ [tích hợp chatbot]{"entity": "job", "role": "next_job"}
-    - Tiếp theo tôi sẽ [tích hợp chatbot vào website] {"entity": "job", "role": "next_job"}
-    - Tiếp theo tôi sẽ [tích hợp chatbot vào website của trường] {"entity": "job", "role": "next_job"}
-    - Công việc tiếp theo sẽ là [tích hợp chatbot vào website của trường] {"entity": "job", "role": "next_job"}
-    - Công việc tiếp theo sẽ là [tích hợp chatbot vào website của trường] {"entity": "job", "role": "next_job"}
-    - công việc tiếp theo tôi sẽ làm là [tích hợp chatbot vào website của trường] {"entity": "job", "role": "next_job"}
-    - công việc tiếp mà tôi sẽ làm là [tích hợp chatbot vào website của trường] {"entity": "job", "role": "next_job"}
-    - công việc tôi chuẩn bị làm là [tích hợp chatbot vào website của trường] {"entity": "job", "role": "next_job"}
-    - công việc tiếp theo tôi hướng đến chính là [tích hợp chatbot vào website của trường] {"entity": "job", "role": "next_job"}
-    - [tích hợp chatbot vào website của trường]{"entity": "job", "role": "next_job"} là công việc tiếp theo tôi sẽ làm
-    - [tích hợp chatbot vào website của trường]{"entity": "job", "role": "next_job"} là công việc tôi định làm
-    - [tích hợp chatbot vào website của trường]{"entity": "job", "role": "next_job"} là công việc tôi chuẩn bị làm
-    - tôi dự định sẽ [tích hợp chatbot vào website của trường] {"entity": "job", "role": "next_job"}
-    - tôi định sẽ [tích hợp chatbot vào website của trường] {"entity": "job", "role": "next_job"}
-    - tôi nghĩ tiếp theo tôi sẽ [tích hợp chatbot vào website của trường] {"entity": "job", "role": "next_job"}
-    - Chắc là tôi sẽ [tích hợp chatbot vào website của trường] {"entity": "job", "role": "next_job"}
-    - tôi chuẩn bị [tích hợp chatbot vào website của trường] {"entity": "job", "role": "next_job"}
-    - tôi sẽ làm [tích hợp chatbot vào website của trường] {"entity": "job", "role": "next_job"}
-    - tôi sẽ [tích hợp chatbot vào website của trường] {"entity": "job", "role": "next_job"}
+    - [tích hợp chatbot](next_job)
+    - tôi sẽ [tích hợp chatbot](next_job)
+    - Tiếp theo tôi sẽ [tích hợp chatbot](next_job)
+    - Tiếp theo tôi sẽ [tích hợp chatbot vào website] (next_job)
+    - Tiếp theo tôi sẽ [tích hợp chatbot vào website của trường] (next_job)
+    - Công việc tiếp theo sẽ là [tích hợp chatbot vào website của trường] (next_job)
+    - Công việc tiếp theo sẽ là [tích hợp chatbot vào website của trường] (next_job)
+    - công việc tiếp theo tôi sẽ làm là [tích hợp chatbot vào website của trường] (next_job)
+    - công việc tiếp mà tôi sẽ làm là [tích hợp chatbot vào website của trường] (next_job)
+    - công việc tôi chuẩn bị làm là [tích hợp chatbot vào website của trường] (next_job)
+    - công việc tiếp theo tôi hướng đến chính là [tích hợp chatbot vào website của trường] (next_job)
+    - [tích hợp chatbot vào website của trường](next_job) là công việc tiếp theo tôi sẽ làm
+    - [tích hợp chatbot vào website của trường](next_job) là công việc tôi định làm
+    - [tích hợp chatbot vào website của trường](next_job) là công việc tôi chuẩn bị làm
+    - tôi dự định sẽ [tích hợp chatbot vào website của trường] (next_job)
+    - tôi định sẽ [tích hợp chatbot vào website của trường] (next_job)
+    - tôi nghĩ tiếp theo tôi sẽ [tích hợp chatbot vào website của trường](next_job)
+    - Chắc là tôi sẽ [tích hợp chatbot vào website của trường] (next_job)
+    - tôi chuẩn bị [tích hợp chatbot vào website của trường] (next_job)
+    - tôi sẽ làm [tích hợp chatbot vào website của trường] (next_job)
+    - tôi sẽ [tích hợp chatbot vào website của trường] (next_job)

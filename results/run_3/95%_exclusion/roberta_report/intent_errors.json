@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Cho tôi xem báo cáo mới nhất của Trần Phước An",
+    "intent": "ask_lastest_report_from_student",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.3374023139476776
+    }
+  },
+  {
+    "text": "Bạn có thể cho tôi xem báo cáo mới nhất không?",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.5603094696998596
+    }
+  },
+  {
+    "text": "Cho tôi xem báo cáo mới nhất của tôi",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.4619321823120117
+    }
+  },
+  {
+    "text": "chúc bạn một ngày tốt lành",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_lastest_report",
+      "confidence": 0.21130597591400146
+    }
+  },
+  {
+    "text": "nếu còn gì thêm, tôi sẽ quay lại",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.4475690722465515
+    }
+  },
+  {
+    "text": "tôi tên là gì",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.6886016726493835
+    }
+  },
+  {
+    "text": "tôi muốn nói chuyện",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "provide_done_job",
+      "confidence": 0.4810199439525604
+    }
+  },
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.294403076171875
+    }
+  },
+  {
+    "text": "tình hình của đề tài tôi thế nào",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.9232751131057739
+    }
+  },
+  {
+    "text": "tôi muốn biết thông tin về đề tài của tôi",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.9659916758537292
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "text": "Tôi muốn xem đề tài của Trần Phước An",
+    "intent": "ask_enroll_from_student",
+    "intent_prediction": {
+      "name": "ask_lastest_report_from_student",
+      "confidence": 0.7204369902610779
+    }
+  },
+  {
+    "text": "Đề tài mà Nguyễn Phúc Vĩnh An làm là gì",
+    "intent": "ask_enroll_from_student",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.7521420121192932
+    }
+  },
+  {
+    "text": "Bạn có thể cho tôi xem báo cáo mới nhất không?",
+    "intent": "ask_lastest_report",
+    "intent_prediction": {
+      "name": "ask_lastest_report_from_student",
+      "confidence": 0.8984682559967041
+    }
+  },
+  {
+    "text": "chúc bạn một ngày tốt lành",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_random_topic",
+      "confidence": 0.5764972567558289
+    }
+  },
+  {
+    "text": "nếu còn gì thêm, tôi sẽ quay lại",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "ask_enroll_infor",
+      "confidence": 0.927642822265625
+    }
+  },
+  {
+    "text": "cho tôi biết đề tài tôi đã đăng kí",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_from_student",
+      "confidence": 0.904521644115448
+    }
+  },
+  {
+    "text": "tên đề tài tôi đăng kí là gì",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_enroll_from_student",
+      "confidence": 0.6552181243896484
+    }
+  },
+  {
+    "text": "tôi muốn biết thông tin về đề tài của tôi",
+    "intent": "ask_enroll_infor",
+    "intent_prediction": {
+      "name": "ask_user_infor",
+      "confidence": 0.7150188088417053
+    }
+  }
+]

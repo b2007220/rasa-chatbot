@@ -3,32 +3,32 @@ stories:
     steps:
       - user: |
           xin chào
-      - intent: greet
+        intent: greet
       - action: utter_greet
       - user: |
           tạm biệt
-      - intent: goodbye
+        intent: goodbye
       - action: utter_goodbye
 
   - story: ask user infor
     steps:
       - user: |
           cho tôi biết thông tin của tôi
-      - intent: ask_user_infor
+        intent: ask_user_infor
       - action: action_user_infor
 
   - story: ask enroll infor
     steps:
       - user: |
           cho tôi biết thông tin đề tài đăng ký của tôi
-      - intent: ask_enroll_infor
+        intent: ask_enroll_infor
       - action: action_enroll_infor
 
   - story: show lastest report
     steps:
       - user: |
           cho tôi xem báo cáo mới nhất của tôi
-      - intent: ask_lastest_report
+        intent: ask_lastest_report
       - action: action_show_lastest_report
 
   - story: ask for random use
@@ -37,32 +37,32 @@ stories:
           cho tôi xem một đề tài niên luận cơ sở ngẫu nhiên của thầy [Lưu Tiến Đạo](person_name)
         entities:
         - person_name: Lưu Tiến Đạo
-      - intent: ask_random_topic
+        intent: ask_random_topic
       - action: action_ask_random_topic
 
   - story: ask lastest report from student
     steps:
       - user: |
           cho tôi xem báo cáo mới nhất của [Lê Mỹ Duyên](person_name)
-      - intent: ask_lastest_report_from_student
+        intent: ask_lastest_report_from_student
       - action: action_show_lastest_report_from_student
 
   - story: ask enroll from student
     steps:
       - user: |
           cho tôi xem đề tài đã đăng ký của [Nguyễn Phúc Vĩnh An](person_name)
-      - intent: ask_enroll_from_student
+        intent: ask_enroll_from_student
       - action: action_show_enroll_from_student
 
   - story: interactive_story_1
     steps:
     - user: |
         xin chào
-    - intent: greet
+      intent: greet
     - action: utter_greet
     - user: |
         cho tôi xem báo cáo mới nhất của [Lê Mỹ Duyên](person_name)
-    - intent: ask_lastest_report_from_student
+      intent: ask_lastest_report_from_student
       entities:
       - person_name: Lê Mỹ Duyên
     - slot_was_set:
@@ -70,30 +70,7 @@ stories:
     - action: action_show_lastest_report_from_student
     - user: |
         cho tôi xem đề tài đã đăng ký của [Nguyễn Phúc Vĩnh An](person_name)
-    - intent: ask_enroll_from_student
-      entities:
-      - person_name: Nguyễn Phúc Vĩnh An
-    - slot_was_set:
-      - person_name: Nguyễn Phúc Vĩnh An
-    - action: action_show_enroll_from_student
-
-   - story: interactive_story_1
-    steps:
-    - user: |
-        xin chào
-    - intent: greet
-    - action: utter_greet
-    - user: |
-        cho tôi xem báo cáo mới nhất của [Lê Mỹ Duyên](person_name)
-    - intent: ask_lastest_report_from_student
-      entities:
-      - person_name: Lê Mỹ Duyên
-    - slot_was_set:
-      - person_name: Lê Mỹ Duyên
-    - action: action_show_lastest_report_from_student
-    - user: |
-        cho tôi xem đề tài đã đăng ký của [Nguyễn Phúc Vĩnh An](person_name)
-    - intent: ask_enroll_from_student
+      intent: ask_enroll_from_student
       entities:
       - person_name: Nguyễn Phúc Vĩnh An
     - slot_was_set:
@@ -104,15 +81,38 @@ stories:
     steps:
     - user: |
         xin chào
-    - intent: greet
+      intent: greet
+    - action: utter_greet
+    - user: |
+        cho tôi xem báo cáo mới nhất của [Lê Mỹ Duyên](person_name)
+      intent: ask_lastest_report_from_student
+      entities:
+      - person_name: Lê Mỹ Duyên
+    - slot_was_set:
+      - person_name: Lê Mỹ Duyên
+    - action: action_show_lastest_report_from_student
+    - user: |
+        cho tôi xem đề tài đã đăng ký của [Nguyễn Phúc Vĩnh An](person_name)
+      intent: ask_enroll_from_student
+      entities:
+      - person_name: Nguyễn Phúc Vĩnh An
+    - slot_was_set:
+      - person_name: Nguyễn Phúc Vĩnh An
+    - action: action_show_enroll_from_student
+
+  - story: interactive_story_1
+    steps:
+    - user: |
+        xin chào
+      intent: greet
     - action: utter_greet
     - user: |
         cho tôi biết thông tin của tôi
-    - intent: ask_user_infor
+      intent: ask_user_infor
     - action: action_user_infor
     - user: |
         cho tôi xem một đề tài [niên luận cơ sở](topic_type) ngẫu nhiên của thầy [Lưu Tiến Đạo](person_name)
-    - intent: ask_random_topic
+      intent: ask_random_topic
       entities:
       - topic_type: niên luận cơ sở
       - person_name: Lưu Tiến Đạo
@@ -123,51 +123,111 @@ stories:
     - action: action_ask_random_topic
     - user: |
         cho tôi xem lần báo cáo lần cuối của tôi
-    - intent: ask_lastest_report
+      intent: ask_lastest_report
     - action: action_show_lastest_report
     - user: |
         cho tôi biết thông tin đề tài đăng ký của tôi
-    - intent: ask_enroll_infor
+      intent: ask_enroll_infor
     - action: action_enroll_infor
 
   - story: interactive_story_1
-  steps:
-  - user: |
-      xin chào
-  - intent: greet
-  - action: utter_greet
-  - user: |
-      tạo báo cáo tiến độ mới
-  - intent: create_new_report
-  - action: report_form
-  - active_loop: report_form
-  - action: utter_ask_done_job
-  - slot_was_set:
-    - requested_slot: done_job
-  - user: |
-      [tạo ra giao diện chatbot](done_job)  
-  - intent: provide_done_job
-  - slot_was_set:
-    - done_job: Tạo ra giao diện chatbot
-  - action: utter_ask_next_job
-  - slot_was_set:
-    - requested_slot: next_job
-  - user: |
-      [phân tích yêu cầu](next_job)
-  - intent: provide_next_job
-  - slot_was_set:
-    - next_job: phân tích yêu cầu
-  - action: utter_ask_promise_day
-  - slot_was_set:
-    - requested_slot: promise_day
-  - user: |
-      [13/02/2024](promise_day)
-  - intent: provide_promise_day
-    entities:
-    - promise_day: 13/02/2024
-  - slot_was_set:
-    - promise_day: 13/02/2024
-  - slot_was_set:
-    - requested_slot: null
-  - active_loop: null
-  - action: action_create_report
+    steps:
+    - user: |
+        xin chào
+      intent: greet
+    - action: utter_greet
+    - user: |
+        tạo báo cáo tiến độ mới
+      intent: create_new_report
+    - action: report_form
+    - active_loop: report_form
+    - action: utter_ask_done_job
+    - slot_was_set:
+      - requested_slot: done_job
+    - user: |
+        [tạo ra giao diện chatbot](done_job)
+      intent: provide_done_job  
+    - slot_was_set:
+      - done_job: Tạo ra giao diện chatbot
+    - action: utter_ask_next_job
+    - slot_was_set:
+      - requested_slot: next_job
+    - user: |
+        [phân tích yêu cầu](next_job)
+      intent: provide_next_job
+    - slot_was_set:
+      - next_job: phân tích yêu cầu
+    - action: utter_ask_promise_day
+    - slot_was_set:
+      - requested_slot: promise_day
+    - user: |
+        [13/02/2024](promise_day)
+      intent: provide_promise_day
+    - slot_was_set:
+      - promise_day: 13/02/2024
+    - slot_was_set:
+      - requested_slot: null
+    - active_loop: null
+    - action: action_create_report
+  
+  - story: interactive_story_5
+    steps:
+      - user: |
+          tạo báo cáo tiến độ mới
+        intent: create_new_report
+      - action: report_form
+      - active_loop: report_form
+      - slot_was_set:
+        - requested_slot: done_job
+      - user: |
+          Tôi đã hoàn thành được việc [phát triển website](done_job)
+        intent: provide_done_job
+      - slot_was_set:
+        - done_job: phát triển website
+      - slot_was_set:
+        - requested_slot: next_job
+      - user: |
+          [cải thiện quá trình học tập] là công việc tiếp theo của tôi(next_job)
+        intent: provide_next_job
+      - slot_was_set:
+        - next_job: cải thiện quá trình học tập
+      - slot_was_set:
+        - requested_slot: promise_day
+      - user: |
+          tôi nghĩ tôi sẽ hoàn thành vào ngày [13/02/2024](promise_day)
+        intent: provide_promise_day
+      - slot_was_set:
+        - promise_day: 13/02/2024
+      - slot_was_set:
+        - requested_slot: null
+      - active_loop: null
+      - action: action_create_report
+
+  - story: interactive_story_6
+    steps:
+      - user: |
+          xin chào
+        intent: greet
+      - action: utter_greet
+      - user: |
+          cho tôi biết thông tin của tôi
+        intent: ask_user_infor
+      - action: action_user_infor
+      - user: |
+          Gợi ý cho tôi một đề tài [niên luận ngành](topic_type) ngẫu nhiên của cô [Nguyễn Uyên My](person_name)
+        intent: ask_random_topic
+        entities:
+        - topic_type: niên luận ngành
+        - person_name: Nguyễn Uyên My
+      - slot_was_set:
+        - person_name: Nguyễn Uyên My
+      - slot_was_set:
+        - topic_type: niên luận ngành
+      - user: |
+          Cảm ơn sự hỗ trợ của bạn
+        intent: thank
+      - action: utter_thank
+      - user: |
+          tạm biệt
+        intent: goodbye
+      - action: utter_goodbye

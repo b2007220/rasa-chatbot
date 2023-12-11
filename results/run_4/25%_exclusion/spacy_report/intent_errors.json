@@ -1,0 +1,26 @@
+[
+  {
+    "text": "tôi tên là gì",
+    "intent": "ask_user_infor",
+    "intent_prediction": {
+      "name": "create_new_report",
+      "confidence": 0.5511577129364014
+    }
+  },
+  {
+    "text": "xin chào",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.9357584714889526
+    }
+  },
+  {
+    "text": "tôi cần hỗ trợ",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.3796123266220093
+    }
+  }
+]
