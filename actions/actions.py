@@ -15,6 +15,7 @@ import asyncio
 from prisma import Prisma
 from rasa_sdk.types import DomainDict
 from datetime import datetime
+import random
 #
 # class ActionHelloWorld(Action):
 #
@@ -282,8 +283,8 @@ class ShowLastestReportFromStudent(Action):
                         text="Bạn không phải là giảng viên hỗ trợ sinh viên này")
             else:
                 dispatcher.utter_message(text="Bạn không phải là giảng viên")
-        # else:
-        #     dispatcher.utter_message(text="Không tìm thấy sinh viên")
+        else:
+            dispatcher.utter_message(text="Không tìm thấy sinh viên")
         return []
 
 
@@ -371,27 +372,45 @@ class AskRandomTopic(Action):
                 'fullName': teacher_name
             }
         )
+        semester = await prisma.semester.find_first(
+            where={
+                'isCurrent': True,
+            }
+        )
+        
         if (teacher):
-            randomUse = await prisma.use.find_first(
-                where={
-                    'userId': int(teacher.id),
-                    'topic': {
-                        'type': topic_type
+            if(teacher.role == 'TEACHER'):
+                count = await prisma.use.count(
+                    where={
+                        'semesterId': int(semester.id),
+                        'userId': int(teacher.id),
+                        'topic': {
+                            'type': topic_type
+                        }
                     }
-                },
-                include={
-                    'topic': True
-                },
-                order={
-                    'random': 'asc'
-                }
-            )
-            if (randomUse):
-                dispatcher.utter_message(text="Đề tài của giảng viên {} là {}. Mô tả đề tài: {}. Link tham khảo đề tài: {}".format(
-                    teacher.fullName, randomUse.topic.name, randomUse.topic.describe, randomUse.topic.link))
+                )
+                randomNum = random.randint(1, int(count))
+                randomUse = await prisma.use.find_first(
+                    skip=int(randomNum * 0.8),
+                    where={
+                        'semesterId': int(semester.id),
+                        'userId': int(teacher.id),
+                        'topic': {
+                            'type': topic_type
+                        }
+                    },
+                    include={
+                        'topic': True
+                    }
+                )
+                if (randomUse):
+                    dispatcher.utter_message(text="Đề tài của giảng viên {} là {}. Mô tả đề tài: {}. Link tham khảo đề tài:{}".format(
+                        teacher.fullName, randomUse.topic.name, randomUse.topic.describe, randomUse.topic.link,randomUse.topic.link))
+                else:
+                    dispatcher.utter_message(
+                        text="Giảng viên không có đề tài nào.")
             else:
-                dispatcher.utter_message(
-                    text="Giảng viên không có đề tài nào.")
+                dispatcher.utter_message(text="Bạn không phải là giảng viên")
         else:
             dispatcher.utter_message(text="Không tìm thấy giảng viên")
         return []

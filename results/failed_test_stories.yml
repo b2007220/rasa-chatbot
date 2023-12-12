@@ -15,10 +15,10 @@ stories:
     - done_job: tạo ra giao diện chatbot
   - slot_was_set:
     - done_job: Tạo ra giao diện chatbot
-  - action: utter_ask_next_job  # predicted: action_user_infor
+  - action: utter_ask_next_job  # predicted: action_default_fallback
   - slot_was_set:
     - requested_slot: next_job
-  - intent: provide_next_job  # predicted: greet: phân tích yêu cầu
+  - intent: provide_next_job  # predicted: nlu_fallback: phân tích yêu cầu
     entities: []
   - slot_was_set:
     - next_job: phân tích yêu cầu
@@ -41,19 +41,19 @@ stories:
   - active_loop: report_form
   - slot_was_set:
     - requested_slot: done_job
-  - intent: provide_done_job  # predicted: ask_enroll_infor: Tôi đã hoàn thành được việc phát triển website
+  - intent: provide_done_job  # predicted: nlu_fallback: Tôi đã hoàn thành được việc phát triển website
     entities: []
   - slot_was_set:
     - done_job: phát triển website
   - slot_was_set:
     - requested_slot: next_job
-  - action: action_listen  # predicted: action_user_infor
+  - action: action_listen  # predicted: action_default_fallback
   - intent: provide_next_job
   - slot_was_set:
     - next_job: cải thiện quá trình học tập
   - slot_was_set:
     - requested_slot: promise_day
-  - action: action_listen  # predicted: action_create_report
+  - action: action_listen  # predicted: action_enroll_infor
   - intent: provide_promise_day
     entities:
     - promise_day: 13/02/2024

@@ -1,9 +1,9 @@
 {
-  "person_name": {
+  "topic_type": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 23,
+    "support": 7,
     "confused_with": {}
   },
   "next_job": {
@@ -13,11 +13,11 @@
     "support": 4,
     "confused_with": {}
   },
-  "topic_type": {
+  "person_name": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 7,
+    "support": 23,
     "confused_with": {}
   },
   "done_job": {
