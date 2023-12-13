@@ -123,7 +123,6 @@ class CreateReport(Action):
                 'isCurrent': True,
             }
         )
-        dispatcher.utter_message(text="Tạo báo cáo thành công")
         if (user.role == 'STUDENT'):
             enroll = await prisma.enroll.find_first(
                 where={
@@ -361,7 +360,7 @@ class AskRandomTopic(Action):
         await prisma.connect()
 
         teacher_name = tracker.get_slot('person_name')
-        topic_type = tracker.get_slot('topic')
+        topic_type = tracker.get_slot('topic_type')
         valid_topic_types = ['Niên luận cơ sở', 'niên luận cơ sở', 'nlcs', 'nl cơ sở', 'NLCS']
         if (topic_type in valid_topic_types):
             topic_type = 'BASIS'

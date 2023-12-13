@@ -104,10 +104,10 @@ nlu:
     - Cho tôi một đề tài [niên luận ngành](topic_type) ngẫu nhiên từ thầy [Lưu Tiến Đạo](person_name)
     - Có thể cho tôi một đề tài [niên luận cơ sở](topic_type) ngẫu nhiên của thầy [Lưu Tiến Đạo](person_name) được không
     - Có thể cho tôi một đề tài [niên luận ngành](topic_type) ngẫu nhiên của thầy [Lưu Tiến Đạo](person_name) được không
-    - Chọn một đề tài [niên luận cơ sở] từ cô [Nguyễn Uyên My](person_name) cho tôi được không
-    - Chọn một đề tài [niên luận ngành] từ cô [Nguyễn Uyên My](person_name) cho tôi được không
-    - Bạn có thể gợi ý cho tôi một đề tài [niên luận cơ sở] từ cô [Nguyễn Uyên My](person_name) không?
-    - Bạn có thể gợi ý cho tôi một đề tài [niên luận ngành] từ thầy [Lưu Tiến Đạo](person_name) không?
+    - Chọn một đề tài [niên luận cơ sở](topic_type) từ cô [Nguyễn Uyên My](person_name) cho tôi được không
+    - Chọn một đề tài [niên luận ngành](topic_type) từ cô [Nguyễn Uyên My](person_name) cho tôi được không
+    - Bạn có thể gợi ý cho tôi một đề tài [niên luận cơ sở](topic_type) từ cô [Nguyễn Uyên My](person_name) không?
+    - Bạn có thể gợi ý cho tôi một đề tài [niên luận ngành](topic_type) từ thầy [Lưu Tiến Đạo](person_name) không?
     - Gợi ý một đê tài [niên luận cơ sở](topic_type) từ thầy [Lưu Tiến Đạo](person_name) cho tôi được không?
     - Gợi ý một đề tài [niên luận ngành](topic_type) từ thầy [Lưu Tiến Đạo](person_name) cho tôi được không?
     - Đưa ra cho tôi một đề tài [niên luận cơ sở](topic_type) từ thầy [Lưu Tiến Đạo](person_name) được không?
